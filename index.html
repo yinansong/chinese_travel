@@ -1,0 +1,1635 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Why is it so hard for the Chinese to Travel Abroad?</title>
+    <meta charset="UTF-8" />
+    <!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 2787476, 2014-04-02T20:43:31-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Avenir 95 Black by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All
+ * Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights
+ * reserved.
+ *
+ * Webfont: Linotype Univers Com 420 Condensed Regular by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers-lt/com-420-condensed-regular/
+ * Copyright: Copyright &#x00A9; 2005 - 2008 Linotype GmbH, www.linotype.com. All rights
+ * reserved. This font software may not be reproduced, modified, disclosed or
+ * transferred without the express written approval of Linotype GmbH. Univers is a
+ * trademark of Linotype Cor
+ *
+ * Webfont: Avenir 65 Medium by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-medium/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights
+ * reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights
+ * Reserved.
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2787476
+ * Licensed pageviews: 250,000
+ *
+ * © 2014 MyFonts Inc
+*/
+
+-->
+    
+    
+<!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 2797156, 2014-04-18T02:45:58-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir 65 Medium Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-mediumoblique/
+ * Copyright: Part of the digitally encoded machine readable outline data for producing
+ * the Typefaces provided is copyrighted &#x00A9; 1981 - 2007 Linotype GmbH,
+ * www.linotype.com. All rights reserved. This software is the property of Linotype
+ * GmbH, and may not be repro
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2797156
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+-->
+    <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+    <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit2.css">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript">
+        function toggleContent() {
+        // Get the DOM reference
+        var contentId = document.getElementById("content");
+        // Toggle
+        contentId.style.display == "block" ? contentId.style.display = "none" :
+        contentId.style.display = "block";
+}
+    </script>
+    
+    <script>
+      $(function() {
+
+        // scroll handler
+        var scrollToAnchor = function(id) {
+
+          // grab the element to scroll to based on the name
+          var elem = $("a[name='"+ id +"']");
+
+          // if that didn't work, look for an element with our ID
+          if ( typeof( elem.offset() ) === "undefined" ) {
+            elem = $("#"+id);
+          }
+
+          // if the destination element exists
+          if ( typeof( elem.offset() ) !== "undefined" ) {
+
+            // do the scroll
+            $('html, body').animate({
+                    scrollTop: elem.offset().top,
+                    scrollLeft: elem.offset().left
+                    }, 1500, function(){
+                      // You can disable the line below if you want the map
+                      // to stay hidden after scroll.
+                      //$('#content').show();
+                    });
+
+          }
+
+        };
+
+        // bind to click event
+        $("a").click(function( event ) {
+
+          // only do this if it's an anchor link
+          if ( $(this).attr("href").match("#") ) {
+
+            // cancel default event propagation
+            event.preventDefault();
+
+            // scroll to the location
+            var href = $(this).attr('href').replace('#', '')
+            scrollToAnchor( href );
+          }
+        });
+
+
+        // Hide #content when it, or #internal is clicked anywhere.
+        $('#content, #internal').click(function() {
+            $('#content').hide();
+        });
+
+        $('.collapse-classes').click(function() {
+            var $this = $(this);
+
+            $this.toggleClass('show');
+
+            if ($this.hasClass('show')) {
+                $this.text('Show');
+            } else {
+                $this.text('Hide');
+            }
+        });
+
+      });
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#sweden').mouseover(function() {
+                $(this).attr('src', 'img/sweden-b.gif'); 
+                $(this).css('height', '148px');
+                $(this).css('top', '275px');
+                $(this).css('left', '257px');
+            });
+            
+            $('#sweden').mouseout(function() {
+                $(this).attr('src', 'img/sweden-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '300px');
+                $(this).css('left', '282px');
+            });
+
+            $('#finland').mouseover(function() {
+                $(this).attr('src', 'img/finland-b.gif'); 
+                $(this).css('height', '121px');
+                $(this).css('top', '35px');
+                $(this).css('left', '203px');
+            });
+            
+            $('#finland').mouseout(function() {
+                $(this).attr('src', 'img/finland-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '50px');
+                $(this).css('left', '218px');
+            });
+            
+            $('#germany').mouseover(function() {
+                $(this).attr('src', 'img/germany-b.gif'); 
+                $(this).css('height', '112px');
+                $(this).css('top', '190px');
+                $(this).css('left', '150px');
+            });
+            
+            $('#germany').mouseout(function() {
+                $(this).attr('src', 'img/germany-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '200px');
+                $(this).css('left', '160px');
+            });
+            
+            $('#usa').mouseover(function() {
+                $(this).attr('src', 'img/usa-b.gif'); 
+                $(this).css('height', '138px');
+                $(this).css('top', '-15px');
+                $(this).css('left', '325px');
+            });
+            
+            $('#usa').mouseout(function() {
+                $(this).attr('src', 'img/usa-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '10px');
+                $(this).css('left', '350px');
+            });
+            
+            $('#luxembourg').mouseover(function() {
+                $(this).attr('src', 'img/luxembourg-b.gif'); 
+                $(this).css('height', '277px');
+                $(this).css('top', '160px');
+                $(this).css('left', '360px');
+            });
+            
+            $('#luxembourg').mouseout(function() {
+                $(this).attr('src', 'img/luxembourg-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '250px');
+                $(this).css('left', '450px');
+            });
+            
+            $('#uk').mouseover(function() {
+                $(this).attr('src', 'img/uk-b.gif'); 
+                $(this).css('height', '104px');
+                $(this).css('top', '45px');
+                $(this).css('left', '545px');
+            });
+            
+            $('#uk').mouseout(function() {
+                $(this).attr('src', 'img/uk-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '50px');
+                $(this).css('left', '550px');
+            });
+            
+            $('#denmark').mouseover(function() {
+                $(this).attr('src', 'img/denmark-b.gif'); 
+                $(this).css('height', '151px');
+                $(this).css('top', '-20px');
+                $(this).css('left', '685px');
+            });
+            
+            $('#denmark').mouseout(function() {
+                $(this).attr('src', 'img/denmark-a.gif'); 
+                $(this).css('height', '93px');
+                $(this).css('top', '10px');
+                $(this).css('left', '715px');
+            });
+            
+        });
+    </script>
+</head>
+<body>
+    <div id="content">
+        <a class="menu_item" id="button_home" href="#home">Home</a>
+        
+        <a class="menu_item" id="button_welcome" href="#welcome">Introduction</a>
+
+        <a class="menu_item" id="button_hukou1" href="#hukou_system">The Notorious Hukou System</a>
+
+        <a class="menu_item" id="button_timeline" href="#timeline_start">Timeline:<br>China&rsquo;s Travel Policies <br>Over the Past 30 Years</a>
+
+        <a class="menu_item" id="button_border1" href="#strict_border_pt1">Not-So-Easy Come</a>
+
+        <a class="menu_item" id="button_border2" href="#strict_border_pt2">Not-So-Easy Go</a>
+
+        <a class="menu_item" id="button_recip" href="#recip">The Rule of Reciprocality</a>
+
+        <a class="menu_item" id="button_neumayer" href="#neumayer_analysis">Common Reasons for Visa Restrictions</a>
+
+        <a class="menu_item" id="button_app" href="#application">The Application</a>
+
+        <a class="menu_item" id="button_gdp" href="#gdp">GDP<br>Per<br>Capita</a>
+
+        <a class="menu_item" id="button_fees" href="#fees">The Expensive Application Fees</a>
+
+        <a class="menu_item" id="button_communism" href="#communism">Communist China</a>
+
+        <a class="menu_item" id="button_immigration" href="#immigration">Illegal Immigration</a>
+
+        <a class="menu_item" id="button_connection" href="#connection">The Lack of Connections</a>
+         
+        <a class="menu_item" id="button_package" href="#package">Package Holiday</a>
+        
+        <a class="menu_item" id="button_conclusion" href="#conclusion">Conclusion</a>
+    
+    </div>
+    <a name="home" style="position:absolute; top:0px; left:0px;"></a>
+    <div id="navigation_bar">
+        <div class="nav_button" id="showmap" onclick="toggleContent()">Map</div>
+        <a id="startover_text" href="#home"><div class="nav_button" id="startover">Home</div></a>
+    </div>
+    <div id="title_page">
+        <p id="title_page_line1" style="font-size:180px;">WHY IS IT HARD</p>
+        <p id="title_page_line2" style="font-size:180px; width:1300px;">
+            FOR THE <br>
+            TO TRAVEL ABROAD?
+        </p>
+        <div id="chinese_usembassy_wrapper">
+                <a id="title_chinese">CHINESE</a>
+                <div id="chinese_usembassy_pic">
+                    <img src="img/chinese_usembassy.gif" style="position:absolute; height:600px; z-index:2; left:160px;">
+                    <p id="chinese_usembassy_text1" class="italic_caption">
+                        Many Chinese waiting in line outside the U.S. embassy in hope of getting a U.S. visa. They can wait for hours outside before they meet the visa officers.
+                    </p>
+                </div>
+        </div>
+        <div class="next_wrapper" id="next_wrapper_title" style="position:absolute; left:1175px; top:750px; z-index:5;">
+                <a class="next_button" href="#welcome" style="background:none;">
+                    <p class="navigation_text_next" id="nav_text_title_next">
+                        <br>
+                        Introduction<br>
+                    </p>
+                    <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                </a>
+        </div>
+        
+        
+        <img id="so" src="img/so-animation2.gif">
+        <img id="title_underline" src="img/title_underline5.gif">
+    </div>
+    <div id="intro">
+        <div class="big_text" id="intro_text">INTRO</div>
+        <div class="box" id="box_welcome">
+            <a class="anchor section_anchor" name="welcome" style="top:-50px;"></a>
+            <p class="title_style3" style="top:0px; width:250px;">Traveling in an alledgedly globalized and borderless world is <a href="#gdp" class="neon">mostly the privilege of citizens of rich countries.</a> In China&rsquo;s case, the issue of travel freedom is more complicated.</p>
+            <img src="img/richcountry-underline.gif" style="width:260px; position:absolute; top:211px; left:30px;">
+            <p class="normal_text" style="top:50px; width:250px;">Take a guess: how many countries can you visit without a visa, if you were a citizen of one of these countries?</p>
+            <div id="flags_wrapper">
+                <div class="flag_container" id="flag01">
+                    <div class="flag-front"><img src="img/flag_denmark.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_denmark2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="denmark_rank"><span style="background:#FFFF00;">Ranks 1st out of 103 scores of 191 countries<br>in terms of visa freedom.<span></p>
+                </div>
+                <div class="flag_container" id="flag02">
+                    <div class="flag-front"><img src="img/flag_us.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_us2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="us_rank"><span style="background:#FFFF00;">Ranks 4th out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag03">
+                    <div class="flag-front"><img src="img/flag_singapore.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_singapore2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="singapore_rank"><span style="background:#FFFF00;">Ranks 8th out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag04">
+                    <div class="flag-front"><img src="img/flag_southafrica.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_southafrica2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="safrica_rank"><span style="background:#FFFF00;">Ranks 50th out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag05">
+                    <div class="flag-front"><img src="img/flag_saudiarabia.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_saudiarabia2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="saudiarabia_rank"><span style="background:#FFFF00;">Ranks 74th out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag06" style="height:127px; border: 2px dotted #000;">
+                    <div class="flag-front"><img src="img/flag_china.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_china2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="china_rank"><span style="background:#FFFF00;">Ranks 92nd out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag07">
+                    <div class="flag-front"><img src="img/flag_iran.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_iran2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="iran_rank"><span style="background:#FFFF00;">Ranks 96th out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag08">
+                    <div class="flag-front"><img src="img/flag_pakistan.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_pakistan2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="pakistan_rank"><span style="background:#FFFF00;">Ranks 100th out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+                <div class="flag_container" id="flag09">
+                    <div class="flag-front"><img src="img/flag_afghanistan.gif" style="width:180px;"></div>
+                    <div class="flag-back"><img src="img/flag_afghanistan2.gif" style="width:180px;"></div>
+                    <p class="travel_rank" id="afghanistan_rank"><span style="background:#FFFF00;">Ranks 103rd out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
+                </div>
+            </div>
+            <div class="navigation_buttons" style="right:220px;">
+                <div class="previous_wrapper" id="previous_wrapper_welcome">
+                    <a class="previous_button" href="#home" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_welcome_pre">
+                        <br>
+                        Home<br>
+                        <br>
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_welcome">
+                    <a class="next_button" href="#recip" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_welcome_next">
+                            The<br>
+                            Rule of<br>
+                            Reciprocality
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--middle section starts here-->
+    <div id="analysis">
+        <div class="big_text" id="analysis_text" style="line-height:95%;">COMMON<br>&nbsp;&nbsp;&nbsp;&nbsp;REASONS</div>
+
+<!--reciprocality starts here-->
+        <div class="box" id="box_recip">
+            <a class="anchor section_anchor" name="recip"></a>
+            <p class="title_style1" style="line-height:85%; top:30px;">THE RULE OF<br>RECIPROCALITY</p>
+            <img src="img/reciprocality-animation2.gif" style="position:absolute; width:500px; top:365px; left:52px;">
+            <img src="img/recip_underline.gif" style="position:absolute; width:365px; top:556px; left:580px; z-index:5;">
+            <p class="normal_text" style="position:absolute; top:395px; left:610px; width:400px;">Generally, countries base their visa policies on the principle of reciprocity. This means that country A is very likely to treat the citizens of country B the way country B treats the citizens of country A in terms of visa policies.</p>
+            <p class="normal_text" style="position:absolute; top:565px; left:610px; width:400px;">So, to a large extent, <a class="inline_highlighter"href="#strict_border_pt1">how China treats other citizens in visa policies </a>also affects the level of difficulty for the Chinese to travel abroad.</p>
+            <div class="navigation_buttons">
+                <div class="previous_wrapper" id="previous_wrapper_recip">
+                    <a class="previous_button" href="#welcome" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_recip_pre">
+                            <br>
+                            Introduction
+                        </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_recip">
+                    <a class="next_button" href="#neumayer_analysis" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_recip_next">
+                            Common<br>
+                            Reasons
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--reciprocality ends here-->
+
+<!--neuymaer starts here-->
+        <div class="box" id="box_neumayer">
+            <a class="anchor section_anchor" name="neumayer_analysis" style="left:-150px;"></a>
+            <div id="neumayer_title">
+                <p class="title_style2" style="top:7px;">UNEQUAL ACCESS TO FOREIGN SPACE</p>
+                <p class="title_style1" style="line-height:85%; top:30px;">COMMON<br>REASONS</p>
+                <p class="title_style2" style="top:50px;">FOR VISA RESTRICTIONS</p>
+                <p class="title_style3" style="position:absolute; left:78px; width:1000px; top:395px;">According to Neumayer, &ldquo;the restrictions to freedom and difficulties in crossing borders turn out to be highly unevenly distributed across people with different nationalities.&ldquo;
+                </p>
+                <div id="comparison_divider"></div>
+                <div id="comparison_wrapper">
+                    <div id="comaprison_title">
+                        <div class="left">
+                            <p class="comparison_text" style="font-size:40px;">
+                                YOU ARE<br>
+                                SO<br>
+                                WELCOME
+                            </p>
+                            <p style="font-family: AvenirLTStd-Medium; font-weight: normal; font-style: normal; font-size: 20px; margin-top:-18px;">
+                                if your country is or has...
+                            </p>
+                        </div>
+                        <div class="right">
+                            <p class="comparison_text" style="font-size:40px;">
+                                YOU ARE<br>
+                                NOT<br>
+                                WELCOME
+                            </p>
+                            <p style="font-family: AvenirLTStd-Medium; font-weight: normal; font-style: normal; font-size: 20px; margin-top:-18px;">
+                                if your country is or has...
+                            </p>
+                        </div>
+                    </div>
+
+                    <a id="wealth_wrapper" class="comparison_link comparison_wrapper" href="#gdp">
+                        <div class="comparison_set" id="wealth">
+                            <div class="left">
+                                <img src="img/rich.gif" style="height:90px;">
+                                <p class="comparison_text">RICH</p>
+                            </div>
+                            <div class="right">
+                                <img src="img/poor.gif" style="height:90px;">
+                                <p class="comparison_text">POOR</p>
+                            </div>
+                        </div>
+                        <img class="smudge" id="smudge01" src="img/smudge01.gif">
+                        <div class="comparison_explain" id="wealth_text">Although China is the second largest economy in the world, it is very poor on average. The GDP-per-capita is 6,091 USD in 2012.</div>
+                    </a>
+
+                    <a id="population_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="population">
+                        <div class="left">
+                            <img src="img/bigpopulation.gif" style="height:90px;">
+                            <p class="comparison_text">BIG <br>POPULATION</p>
+                        </div>
+                        <div class="right">
+                            <img src="img/smallpopulation.gif" style="height:90px;">
+                            <p class="comparison_text">SMALL<br>POPULATION</p>
+                        </div>
+                        <img class="smudge" id="smudge02" src="img/smudge02.gif">
+                        <div class="comparison_explain" id="population_text">As of 2012, China has a population of 1.351 billion.</div>
+                    </div>
+                    </a>
+
+                    <a id="stability_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="stability">
+                        <div class="left">
+                            <img src="img/stable.gif" style="height:100px;">
+                            <p class="comparison_text" style="padding-top:10px;">STABLE</p>
+                        </div>
+                        <div class="right">
+                            <img src="img/unstable.gif" style="height:90px;">
+                            <p class="comparison_text" style="padding-top:20px;">UNSTABLE</p>
+                        </div>
+                        <img class="smudge" id="smudge03" src="img/smudge03.gif">
+                        <div class="comparison_explain" id="stability_text">Overall, China is politically very stable.</div>
+                    </div>
+                    </a>
+
+                    <a id="conflict_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="conflict">
+                        <div class="left">
+                            <img src="img/noconflict.gif" style="height:120px;">
+                            <p class="comparison_text" style="padding-top:10px;">NO CONFLICT</p>
+                        </div>
+                        <div class="right" style="top:26px;">
+                            <img src="img/conflict.gif" style="height:75px;">
+                            <p class="comparison_text" style="padding-top:29px;">CONFLICT</p>
+                        </div>
+                        <img class="smudge" id="smudge04" src="img/smudge04.gif">
+                        <div class="comparison_explain" id="conflict_text">China has been free of military conflicts within its territory. </div>
+                    </div>
+                    </a>
+
+                    <a id="democracy_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="democracy">
+                        <div class="left">
+                            <img src="img/democracy.gif" style="height:140px;">
+                            <p class="comparison_text" style="padding-top:10px;">DEMOCRACY</p>
+                        </div>
+                        <div class="right">
+                            <img src="img/nondemocracy.gif" style="height:139px;">
+                            <p class="comparison_text" style="padding-top:10px;">NON-DEMOCRACY</p>
+                        </div>
+                        <img class="smudge" id="smudge05" src="img/smudge05.gif">
+                        <div class="comparison_explain" id="democracy_text">China, under the rule of the Communist Party of China, is a socialist state.</div>
+                    </div>
+                    </a>
+
+                    <a id="terrorism_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="terrorism">
+                        <div class="left">
+                            <img src="img/noterrorism.gif" style="height:134px;">
+                            <p class="comparison_text" style="padding-top:10px;">NO TERRORISM</p>
+                        </div>
+                        <div class="right">
+                            <img src="img/terrorism.gif" style="height:120px; padding-top:5px;">
+                            <p class="comparison_text" style="padding-top:22px;">TERRORISM</p>
+                        </div>
+                        <img class="smudge" id="smudge06" src="img/smudge06.gif">
+                        <div class="comparison_explain" id="terrorism_text">China is not infiltrated by terrorists.</div>
+                    </div>
+                    </a>
+
+                    <a id="economy_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="economy">
+                        <div class="left">
+                            <img src="img/econfreedom.gif" style="height:90px;">
+                            <p class="comparison_text" style="padding-top:10px;">ECONOMIC<br> FREEDOM</p>
+                        </div>
+                        <div class="right">
+                            <img src="img/econrestrictions.gif" style="height:102px;">
+                            <p class="comparison_text">ECONOMIC<br>RESTRICTION</p>
+                        </div>
+                        <img class="smudge" src="img/or-question.gif" style="position:absolute; top:100px; left:258px; width:400px;">
+                        <div class="comparison_explain" id="economy_text">China has many trade partners all over the world, but the economy still largely remains under state control.</div>
+                    </div>
+                    </a>
+
+                    <a id="connection_wrapper" class="comparison_link">
+                    <div class="comparison_set" id="connection">
+                        <div class="left">
+                            <img src="img/connection.gif" style="height:90px;">
+                            <p class="comparison_text" style="padding-top:10px;">REGIONAL OR<br>CULTURAL TIES</p>
+                        </div>
+                        <div class="right">
+                            <img src="img/noconnection.gif" style="height:100px;">
+                            <p class="comparison_text">NO REGIONAL<br>OR CULTURAL<br>TIES</p>
+                        </div>
+                        <img class="smudge" id="smudge07" src="img/smudge07.gif">
+                        <div class="comparison_explain" id="connection_text">Even though China was cultural center for East Asia for centuries, the cultural connections are somehow ignored when there is feirce competition and territorial disputes with many of its neighbors.</div>
+                    </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="navigation_buttons" style="right:200px;">
+                <div class="previous_wrapper" id="previous_wrapper_neumayer">
+                    <a class="previous_button" href="#recip" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_neumayer_pre">
+                        The<br>
+                        Rule of<br>
+                        Reciprocality
+                        <br>
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_neumayer">
+                    <a class="next_button" href="#hukou_system" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_neumayer_next">
+                            The<br>
+                            Hukou<br>
+                            System
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--neumayer ends here-->
+    </div>
+<!--middle section ends here-->
+
+<!--internal starts here-->
+    <div id="internal">
+        <div class="big_text" id="internal_text">INTERNAL<br>RESTRIC-<br>TIONS</div>
+
+<!-- box_hukou01 starts here-->
+        <div class="box" id="box_hukou01">
+            <a class="anchor section_anchor" name="hukou_system"></a>
+            <div id="hukou_title">
+                <p class="title_style2">THE NOTORIOUS</p>
+                <p class="title_style1">HUKOU SYSTEM</p>
+                <p class="title_style2">(AKA THE RESIDENCE REGISTRATION SYSTEM)</p>
+                <img id="sucks" src="img/sucks.gif" style="height:100px; position:absolute; left:30px; top:250px; height:150px; z-index:3; transform:rotate(-2deg); -webkit-transform:rotate(-2deg);-ms-transform: rotate(-2deg);">
+            </div>
+            <p class="title_style3" style="position:absolute; left:350px; width: 700px; top:280px;">
+                    The Hukou System creates many problems, and one of it is making obtaining a passport very difficult.
+                </p>
+                <img src="img/beijing_wuyi.png" style="width:600px; position:absolute; left:350px; top:350px;">
+            <p class="title_style3" style="position:absolute; left:350px; top:570px; width: 650px">
+                How many trips and how much &ldquo;additional information&rdquo; does it take before you can have a passport?
+            </p>
+                <ol style="position:absolute; left:312px; top:630px; font-family:AvenirLTStd-Medium; font-weight: normal; font-style: normal; font-size:20px; line-height:195%;">
+                <li>Miss certificate of non-criminal clearance.</li>
+                <li>Miss certificate of employment.</li>
+                <li>Miss the business license of the company.</li>
+                <li>Miss proof of qualifications for the business trips abroad.</li>
+                <li>Not have a local ID card.</li>
+                <li>Finally have the passport.</li>
+                </ol>
+            <div id="zhoustory_wrapper">
+                <p class="title_style4" style="position:absolute; left:72px; top:710px; line-height:85%; z-index:2;">Zhou&rsquo;s<br>Story</p>
+                <img src="img/mrzhou2.gif" style="position:absolute; left:10px; top:380px;">
+                <img src="img/zhou_underline.png" style="position:absolute; left:32px; top:740px;">
+                <img id="angry" src="img/angry.gif" style="position:absolute; left:50px; top:400px; width:100px;">
+                <p id="zhoustory_text" class="normal_text" style="">
+                When it comes to the issue of passport procurement, the hukou system manifests its problems. For a person who has moved away from the place where his hukou originally is, this person has to return to his/her origin to obtain passport, because everything has to be done in person at the place where his/her hukou is.<br>
+                &nbsp; &nbsp; &nbsp; &nbsp;On October 11th, 2013, Focus Talk (&ldquo;Jiao Dian Fang Tan&rdquo;) on China Central Television (CCTV) reported a story of Mr. Zhou, who came from Wuyi, Hubei Province and was currently working in Beijing. Last year, his company planned to send him on a business trip abroad.<br>
+                &nbsp; &nbsp; &nbsp; &nbsp;For the half year before his trip, he returned to his hometown from Beijing 5 times to submit &ldquo;additional materials&rdquo;, which were not listed as must-have materials but were required by the Entry and Exit Administration in Wuyi. After the case exposed by the media, he finally got his passport on the 6th trip.<br>
+                &nbsp; &nbsp; &nbsp; &nbsp;Zhou&#39;s story is definitely not a stand-alone case.
+                </p>
+                <p id="zhoustory_text_add" class="additional_text" style="position:absolute; left:350px; top:930px; width:650px; font-size:15px;">
+                &#42;Even though Zhou&#39;s residence is in Wuyi, where he is born, and he works in Beijing, he got his ID card in the province of Inner Mongolia, when he was studying there. Therefore, he does not have a local ID card of Wuyi, Hebei Province.
+                </p>
+            </div>
+            <div id="hukou_pt2">
+            <p class="title_style4">BUT WHAT IS HUKOU?</p>
+            <div style="position:absolute; width:100px; top:50px; text-align:center; padding:40px; z-index:2;">
+                <p class="title_style2" style="position:absolute; width:150px; text-align:center; font-size:72px; top:80px; ">what</p>
+                <p class="normal_text" style="position:absolute; width:150px;text-align:center; font-size:18px; top:150px;">is it?</p>
+                <p class="title_style2" style="position:absolute; width:150px; text-align:center; font-size:72px; top:156px;" >+</p>
+                <p class="title_style2" style="position:absolute; width:150px; text-align:center; font-size:72px; top:223px;">why</p>
+                <p class="normal_text" style="position:absolute; width:150px; text-align:center; font-size:18px; top:300px;">does it exist?</p>
+                <p class="title_style2" style="position:absolute; width:150px; text-align:center; font-size:72px; top:590px;">how</p>
+                <p class="normal_text" style="position:absolute; width:150px; text-align:center; font-size:18px; top:667px;">does it affect international traveling?</p>
+            </div>
+            <div id="attach_wrapper">
+                <img src="img/hukou_attach_animation.gif" style="position:absolute; height:160px; padding-top:40px; left:275px;">
+                <p class="title_style5" style="position:absolute; text-align:center; left:275px; top:250px; width:300px;">
+                Attaches each Chinese to the city/town of his/her parent(s)
+                </p>
+                <p class="normal_text" style="position:absolute; text-align:center; left:280px; top:310px; width:300px;">
+                Changing one&#39;s residence is not impossible but very difficult, which poses challenges to rights to education, healthcare, etc.
+                </p>
+                <div id="attach_highlight"></div>
+            </div>
+            <div id="divide_wrapper">
+                <img src="img/hukou_divides_animation.gif" style="position:absolute; height:125px; padding-top:60px; left:545px;">
+                <p class="title_style5" style="position:absolute; text-align:center; left:567px; top:250px; width:300px;">
+                To control the urban-rural population divide
+                </p>
+                <p class="normal_text" style="position:absolute; text-align:center; left:575px; top:310px; width:300px;">Therefore, Hukou impedes the flow of population from rural to urban areas, denying the rights of rural residents working and living in cities.</p>
+                <div id="divide_highlight"></div>
+            </div>
+            <div style="height:1px; width:980px; left:20px; position:absolute; top:515px; background:#000;"></div>
+            <div id="how_wrapper">
+                <img src="img/passport-animation.gif" style="position:absolute; height:160px; top:495px; left:360px;">
+                <img src="img/china-zones-animation.gif" style="position:absolute; height:175px; top:490px; left:700px;">
+                <p class="title_style5" style="position:absolute; text-align:center; left:288px; top:720px; width:270px;">
+                Complicates the process of getting a passport
+                </p>
+                <p class="title_style5" style="position:absolute; text-align:center; left:700px; top:720px; width:300px;">
+                Often used by foreign embassies/consulates to divide China into zones.
+                </p>
+                <p class="normal_text" style="position:absolute; text-align:center; left:300px; top:800px; width:300px;">
+                Especially, when the residecne and the current location of a Chinese don&#39;t match.
+                </p>
+                <p class="normal_text" style="position:absolute; text-align:center; left:700px; top:800px; width:320px;">
+                Usually each Chinese visa applicant has to apply in a specific zone, and many travel to distance to attend the visa interview in person.
+                </p>
+                <div id="how_highlight"></div>
+            </div>
+            </div>
+            <div class="navigation_buttons" style="right:200px;">
+                <div class="previous_wrapper" id="previous_wrapper_hukou02">
+                    <a class="previous_button" href="#neumayer_analysis" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_hukou02_pre">
+                            Common<br>
+                            Reasons
+                        <br>
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index: 1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_hukou02">
+                    <a class="next_button" href="#strict_border_pt1" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_hukou02_next">
+                            Not-So-Easy<br>
+                            Come
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+<!--not-so-easy come starts here-->
+        <div class="box" id="box_strict_border1">
+            <a class="anchor section_anchor" name="strict_border_pt1"></a>
+            <p class="title_style2">CHINA&#39;S STRICT BORDER CONTROL: FOREIGNERS</p>
+            <p class="title_style1">NOT-SO-EASY COME</p>
+            <p class="title_style3" style="position:absolute; top:220px; left:75px; width:400px;">
+                China requires almost all foreign visitors to have a Chinese visa.
+            </p>
+            <img src="img/chinesevisa_almostall.gif" style="width:650px; position:absolute; top:230px; left:-15px;">
+            <div style="position:absolute; left:635px; top:315px;">
+                <p class="title_style4" style="position:absolute; left:60px; top:50px; font-size: 50px;">EXCEPT...</p>
+                <img src="img/flagset01.gif" style="position:absolute; left:38px; top:110px; width:180px;">
+                <p style="position:absolute; top:145px; left:275px; font-family:AvenirLTStd-Medium; font-weight:normal; font-style:normal; font-size:20px; width:225px; text-align:left;">Nationals of these 5 countries can visit China without a visa for up to 15, 30, or 90 days.</p>
+                <img src="img/flagset02.gif" style="position:absolute; left:39px; top:292px; width:180px;">
+                <p style="position:absolute; top:330px; left:275px; font-family:AvenirLTStd-Medium; font-weight: normal; font-style: normal; font-size:20px; width:225px; text-align:left;">
+                Nationals of a list of countries can visit China for up to 72 hours when they pass through China at certain airports.
+                </p>
+            </div>
+            <div style="position:absolute; top:65px; left:0px;">
+                <img src="img/visa-bilateral-underline.png" style="position:absolute; left:30px; top:1033px; width:270px;">
+                <p class="title_style3" style="position:absolute; top:785px; left:80px; width:300px;">
+                When compared in a pair, China is more likely to require the citizens of the other country to have visa, which makes the Chinese more prone to face visa restrictions, since <a class="inline_highlighter" href="#recip">visa policies are mostly bilateral.</a>
+                </p>
+                <div id="bar" style="position:absolute; top:780px; left:360px;">
+                    <div id="bar1_wrapper">
+                        <div id="bar1" class="a_bar"></div>
+                        <div id="bar1_text" class="bar_text">
+                            <p style="position:absolute; top:150px; left:40px; font-size:18px; width:500px;">When China is compared with other countries in pairs</p>
+                            <p style="position:absolute; top:175px; left:40px; font-size:40px;">92.02&#37;</p>
+                            <p style="position:absolute; top:230px; left:40px; font-size:18px;">both countries ask for visas</p>
+                        </div>
+                    </div>
+                    <div id="bar2_wrapper">
+                        <div id="bar2" class="a_bar"></div>
+                        <div id="bar2_text" class="bar_text">
+                            <p style="position:absolute; top:150px; left:40px; font-size:18px; width:500px;">When China is compared with other countries in pairs</p>
+                            <p style="position:absolute; top:175px; left:40px; font-size:40px;">6.38&#37;</p>
+                            <p style="position:absolute; top:230px; left:40px; font-size:18px;">China ask for visas, <br>
+                            although the other country doesn’t
+                            </p>
+                        </div>
+                    </div>
+                    <div id="bar3_wrapper">
+                        <div id="bar3" class="a_bar"></div>
+                        <div id="bar3_text" class="bar_text">
+                            <p style="position:absolute; top:150px; left:40px; font-size:18px; width:500px;">When China is compared with other countries in pairs</p>
+                            <p style="position:absolute; top:175px; left:40px; font-size:40px;">1.06&#37;</p>
+                            <p style="position:absolute; top:230px; left:40px; font-size:18px;">The other country asks visas,<br> although China doesn’t
+                            </p>
+                        </div>
+                    </div>
+                    <div id="bar4_wrapper">
+                        <div id="bar4" class="a_bar"></div>
+                        <div id="bar4_text" class="bar_text">
+                            <p style="position:absolute; top:150px; left:40px; font-size:18px; width:500px;">When China is compared with other countries in pairs</p>
+                            <p style="position:absolute; top:175px; left:40px; font-size:40px;">0&#37;</p>
+                            <p style="position:absolute; top:230px; left:40px; font-size:18px;">neither countries ask for visas</p>
+                        </div>
+                    <div/>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="navigation_buttons" style="bottom:0px">
+                <div class="previous_wrapper" id="previous_wrapper_border01">
+                    <a class="previous_button" href="#hukou_system" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_border01_pre">
+                        The<br>
+                        Hukou<br>
+                        System<br>
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index: 1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_border01">
+                    <a class="next_button" href="#strict_border_pt2" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_hukou02_next">
+                            Not-So-Easy<br> 
+                            Go<br>
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--not-so-easy come ends here-->
+
+<!--not-so-easy go starts here-->
+        <div class="box" id="box_strict_border2">
+            <a class="anchor section_anchor" name="strict_border_pt2"></a>
+            <p class="title_style2">CHINA&#39;S STRICT BORDER CONTROL: CHINESE</p>
+            <p class="title_style1">NOT-SO-EASY GO</p>
+            <p class="title_style3" style="position:absolute; width:900px;">Even if a Chinese doesn&rsquo;t need a visa or can have a visa upon arrival for certian countries, he/she might not be able to do that because Chinese airlines and customs require a visa for the destination regardless.</p>
+            <div id="twosteps">
+                <div id="step1">
+                    <img id="step1_img" src="img/step1b.gif" style="width:900px;">
+                    <div id="step1_text">Although airlines, unlike Exit and Entry Administration, do not possess the real power to forbid someone to leave the country, they usually serve as the first line of defense before the real custom inspection.<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp;In the summer of 2013, I was traveling from Chengdu, China to Rabat, Morocco. Traveling on a low budget, I chose to stop three times along the way. Since I booked at different companies, I was told that I had to retrieve my luggage after I arrived at Dubai. I knew that Dubai had a policy of allowing travelers with an outbound ticket within 96 hours of arrival to travel within United Arab Emirates (UAE) on a 96-hour transit visa, which traveler could obtain upon arrival. I was very sure of it because I had done this one time before in the past and also I looked it up online before my travel that it still applied to me as a Chinese citizen.<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp;However, the airline told me that it would not allow me to do that because I did not have a visa to enter UAE to retrieve my luggage in my passport at the moment. The person working at the check-in had to call her supervisor to confirm what they should do in this situation. Fortunately or unfortunately, the flight was cancelled due to weather issue, and I had to fly on a different route that did not involve leaving the airport to retrieve my luggage so it worked or else, there was a good chance that I would have to give up my tickets because the airline did not allow people to leave the country without a visa even when a visa was not necessary.</div>
+                </div>      
+                <div id="step2_wrapper">
+                    <div id="step2"> 
+                        <img id="step2_img" src="img/step2b.gif" style="width:800px;">
+                        <div id="step2_text">I understand that the problem with the airline above might not apply to all airports and airlines across China, but the issue with customs control can serve as the last line of border control. For instance, Iran is one of the few countries that allow Chinese citizens to obtain a visa upon arrival for a short stay. However, according numerous online discussions that I found in China’s travel forums (e.g. tuniu.com and douban.com) many customs inspections across China forbid Chinese citizens to go to Iran without a visa, even though they have purchased the flight tickets and they can obtain a visa upon arrival.<br>
+                        &nbsp; &nbsp; &nbsp; &nbsp;People who discussed this online suggested some ways to get around this. As a Chinese citizens, in order to obtain the visa upon arrival for Iran, you can either go to Hong Kong or Macau first (where nobody cares about people leaving the border and where the customs inspection is left to the country of arrival) and then fly from Hong Kong to Iran, or go to another country first and then go from that country to Iran. Either way, it would be a hassle, because you are still forced to obtain another permit, either the special passport for Hong Kong/Macau only or the visa to visit another country.</div>
+                    </div>
+                    <img id="kidding" src="img/kidding.gif">
+                </div>
+            </div>
+            <div class="navigation_buttons" style="bottom:0px">
+                <div class="previous_wrapper" id="previous_wrapper_border02">
+                    <a class="previous_button" href="#strict_border_pt1" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_border02_pre">
+                            Not-So-Easy<br>
+                            Come
+                        </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index: 1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_border02">
+                    <a class="next_button" href="#timeline_start" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_border02_next">
+                            Timeline:<br>
+                            Travel Policies
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--not-so-easy go ends here-->
+
+<!--timeline starts here-->
+        <div class="box" id="box_timeline">
+            <div id="timeline_content">
+            <a name="timeline_start" class="section_anchor" style="top:-200px;"></a>
+            <p class="title_style1" style="line-height:130px;">CHINA&rsquo;S<br>TRAVEL<br> POLICIES</p>
+            <p class="title_style2" style="padding-top:30px;">OVER THE PAST 30 YEARS</p>
+            <p class="title_style3" style="width:600px; padding-top:40px;">
+                Although Chinese people are still faced with restrictions from the government, the situation has improved over years as China opens gradually to the world. Still, there is a long way to go. 
+            </p>
+<!--1940s-->
+            <div id="wrapper_1949" class="timeline_wrapper">
+            <img src="img/mao_wave2.gif" style="position:absolute; top:210px; left:820px; height:300px; z-index:3;">
+            <div class="timeline_section" id="1940s" style="left:650px;">
+                <div class="decade_line">1940s</div>
+                <div class="event_line">
+                    <p class="event_line_title">People's Republic of China Established</p>
+                    <p class="event_line_text">
+                        On October 1st, 1949, Chairman Mao declares the establishment of People’s Republic of China under Communist rule.
+                    </p>
+                </div>
+                    <div class="year_line" style="top:170px;">1949</div>
+                    <div class="neon_light" id="neon_1949"></div>
+                <div class="policy_line">
+                    <div class="policy_line_title" style="top:500px;">
+                    When &ldquo;New China&rdquo; is founded, the government shuts down outbound tourism for about 3 decades.
+                    </div>
+                </div>
+            </div>
+            </div>
+<!--1950s-->
+            <div id="wrapper_1951" class="timeline_wrapper">
+            <div class="timeline_section" id="1950s" style="left:905px;">
+                <div class="decade_line">1950s</div>
+                <div class="event_line">
+                    <p class="event_line_title"><a id="timeline_hukou" href="#hukou_system">Hukou System</a><br>Comes into Being</p>
+                    <p class="event_line_text">
+                        Also known as Residence Registration System, it bounds each Chinese to a specific area. From here, Chinese gradually lose their rights to move freely within China.
+                    </p>
+                    <img src="img/timeline-hukou-underline.png" style="position:absolute; top:50px; left:0px; width:148px;">
+                </div>
+                    <div class="year_line" style="top:170px;">1951</div>
+                    <div class="neon_light" id="neon_1951"></div>
+            </div>
+            </div>
+<!--1960s-->
+            <div id="wrapper_1966" class="timeline_wrapper">
+            <div class="timeline_section" id="1960s" style="left:1160px;">
+                <div class="decade_line">1960s</div>
+                <div class="event_line">
+                    <p class="event_line_title">Cultural Revolution: <br>A Maoist China</p>
+                    <p class="event_line_text">
+                        The Revoltuion, a social and political movement to promote Maoist orthodoxy, lasts 10 years and takes a heavy toll on the social, political and economic system of China.
+                    </p>
+                </div>
+                    <div class="year_line" style="top:170px;">1966</div>
+                    <div class="neon_light" id="neon_1966"></div>
+                <div class="policy_line">
+                    <div class="policy_line_title" style="top:500px;">
+                    Visiting relatives or friends in Hong Kong, Macau, Taiwan, or foreign countries are condemned as &ldquo;counter-revolutionary.&rdquo;
+                    </div>
+                </div>
+            </div>
+            </div>
+<!--1970s-->
+            <div id="wrapper_1971" class="timeline_wrapper">
+                <img src="img/un-logo4.gif" style="position:absolute; top:450px; left:1450px; height:200px; z-index:6;">
+                <div class="timeline_section" id="1970s-1" style="left:1415px;">
+                    <div class="decade_line" style="width:500px;">1970s</div>
+                    <div class="event_line">
+                        <p class="event_line_title">China Officially <br>Recognized by the UN</p>
+                        <p class="event_line_text">
+                        United Nation General Assemly recognizes People’s Republic of China as the the only lawful representative of China to the United Nations.
+                        </p>
+                    </div>
+                        <div class="year_line" style="top:170px;">1971</div>
+                        <div class="neon_light" id="neon_1971"></div>
+                </div>
+            </div>
+            <div id="wrapper_1978" class="timeline_wrapper">
+            <img src="img/chinagdp1952-2005.gif" style="position:absolute; top:275px; left:1600px; height:220px; z-index:1;">
+            <div class="timeline_section" id="1970s-2" style="left:1665px;">
+                <div class="event_line">
+                    <p class="event_line_title">The 1978 Reform: <br> China Opens <br>to the World</p>
+                    <p class="event_line_text">
+                        Deng Xiaoping, China’s leader at the time leads a series of political and economic reforms that open up China to the world after 30 years of seclusion.
+                    </p>
+                </div>
+                    <div class="year_line" style="top:170px;">1978</div>
+                    <div class="neon_light" id="neon_1978"></div>
+                <div class="policy_line">
+                    <div class="policy_line_title" style="top:500px;">
+                    First 50 Chinese students start to study in the US since 1949.</div>
+                </div>
+            </div>
+            </div>
+<!--1980s-->
+            <div id="wrapper_1986" class="timeline_wrapper">
+            <div class="timeline_section" id="1980s-1" style="left:1920px;">
+                <div class="decade_line" style="width:775px;">1980s</div>
+                <div class="event_line">
+                    <p class="event_line_title">Negotiation with the UK<br>about Hong Kong </p>
+                    <p class="event_line_text">
+                        China starts the negotiation with UK about the hand-over of Hong Kong, which will take place in about 10 years.
+                    </p>
+                </div>
+                <div class="year_line" style="top:300px; index:2;">1986</div>
+                <div class="neon_light" id="neon_1986"></div>
+                <div class="policy_line" style="top:185px;">
+                    <div class="policy_line_title">
+                   Chinese citizens are allowed to visit their relatives in Hong Kong <br>and Macau.
+                    </div>
+                </div>
+                <div class="policy_line">
+                    <div class="policy_line_title" style="top:500px;">
+                    Only two kinds of trips abroad are allowed: visiting relatives abroad and studying abroad.
+                    </div>
+                 </div>
+            </div>
+            </div>
+            <div id="wrapper_1987" class="timeline_wrapper">
+            <img src="img/bordertourismmap2.gif" style="position:absolute; top:70px; left:2360px; height:400px; z-index:1;">
+            <div class="timeline_section" id="1980s-2" style="left:2180px;">
+                    <div class="year_line" style="top:170px;">1987</div>
+                    <div class="neon_light" id="neon_1987"></div>
+                <div class="policy_line" style="top:310px; padding-left:40px; z-index:4;">
+                    <p class="policy_line_title">First Border Tourism Policy<br>about North Korea</p>
+                    <p class="policy_line_text" style="padding-top:30px;">A regulation comes out that allows self-paid tours from Dandong, Liaoning Province, China to Sinuiju, North Korea. It’s the first among 15 policies regarding border tourism from 1987 to 1997. See the map above for the countries. </p>
+                </div>
+            </div>
+            </div>
+            <div id="wrapper_1988" class="timeline_wrapper">
+            <div class="timeline_section" id="1980s-3" style="left:2440px;">
+                    <div class="year_line" style="top:300px;">1988</div>
+                    <div class="neon_light" id="neon_1988"></div>
+            <div class="policy_line" style="top:450px;">
+                    <div class="policy_line_title">First Outbound Tourism Policy about Thailand</div>
+                    <div class="policy_line_text">The policy allows residents of Guangdong Province to visit friends and relatives in Thailand.</div>
+            </div>
+            </div>
+            </div>
+<!--1990s-->
+            <div id="wrapper_1990" class="timeline_wrapper">
+            <div class="timeline_section" id="1990s-1" style="left:2700px;">
+                <div class="decade_line" style="width:1025px;">1990s</div>
+                    <div class="year_line" style="top:300px;">1990</div>
+                    <div class="neon_light" id="neon_1990"></div>
+            <div class="policy_line" style="top:450px;">
+                    <div class="policy_line_title">Thailand, Singapore, and Malaysia</div>
+                    <div class="policy_line_text">The policy allows Chinese citizens to travel to Thailand, Singapore and Malaysia.</div>
+            </div>
+            </div>
+            </div>
+            <div id="wrapper_1997" class="timeline_wrapper">
+                <div class="timeline_section" id="1990s-2" style="left:2970px;">
+                    <div class="event_line">
+                        <p class="event_line_title">Hong Kong<br>Returned to China</p>
+                        <p class="event_line_text">
+                        On July 1st, 1997, Hong Kong, colonized by the UK since 1841, is officially handed over back to China according the the treaty.
+                        </p>
+                    </div>
+                </div>
+                    <div class="year_line" style="top:236px; left:2975px;">1997</div>
+                    <img src="img/hk_skyline2.gif" style="position:absolute; top:375px; left:2969px; height:274px; z-index:1;">
+                    <img src="img/hk_flag_nowhite.gif" style="position:absolute; top:360px; left: 2969px; height:100px; z-index:1;">
+            <div class="timeline_section" id="1990s-3" style="left:3200px;">
+                <div class="event_line">
+                    <p class="event_line_title">Hong Kong <br>in Asian Financial Crisis </p>
+                    <p class="event_line_text">
+                        On July 2nd, 1997, Asian Financial Crisis starts in Thailand and sweeps across Asian countries, taking its heavy toll on Hong Kong’s economy.
+                    </p>
+                </div>
+                <div class="policy_line" style="top:185px; z-index:3;">
+                    <div class="policy_line_title">
+                        &ldquo;Hong Kong Tour&rdquo; allows Chinese to visit Hong Kong for tourism.
+                    </div>
+                </div>
+            </div>
+            <div class="neon_light" id="neon_1997" style="position:absolute; top:65px; left:2969px; width:500px; height:600px; z-index:0;"></div>
+            </div>
+            <div id="wrapper_1999" class="timeline_wrapper">
+                <img src="img/macau_logo2.gif" style="position:absolute; top:300px; left:3530px; height:200px; z-index:1;">
+                <div class="timeline_section" id="1990s-4" style="left:3475px;">
+                    <div class="event_line">
+                        <p class="event_line_title">Macau<br>Returned to China</p>
+                        <p class="event_line_text">
+                        On Dec 20, 1999, Macau is handed back to China from Portugal after more than a century of colonization.
+                    </p>
+                    </div>
+                    <div class="year_line" style="top:170px;">1999</div>
+                    <div class="neon_light" id="neon_1999"></div>
+                </div>
+                </div>
+<!--2000s-->
+            <div id="wrapper_2001" class="timeline_wrapper">
+            <img src="img/china_two.png" style="position:absolute; top:200px; left:3740px; height:230px; z-index:1;">
+            <div class="timeline_section" id="2000s-1" style="left:3730px;">
+                <div class="decade_line" style="width:725px;">2000s</div>
+                <div class="event_line">
+                    <p class="event_line_title" style="width:300px;">China Joins World Trade<br> Organization</p>
+                    <p class="event_line_text">
+                        After a decade's effort, China finally becomes a member of World Trade Organization (WTO).
+                    </p>
+                </div>
+                    <div class="year_line" style="top:170px; color:#FFF;">2001</div>
+                    <div class="neon_light" id="neon_2001"></div>
+            </div>
+            </div>
+            <div id="wrapper_2002" class="timeline_wrapper">
+            <div class="timeline_section" id="2000s-2" style="left:3955px;">
+                    <div class="year_line" style="top:170px; color:#FFF;">2002</div>
+                    <div class="neon_light" id="neon_2002"></div>
+                <div class="policy_line" style="top:450px;">
+                    <div class="policy_line_title">
+                        The Open-Up of <br>Tourism Market
+                    </div>
+                    <div class="policy_line_text">
+                        Prompted by China’s formal accession into the WTO, China opens up to the international and domestic tourism markets of China.
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="wrapper_2003" class="timeline_wrapper">
+                <div class="timeline_section" id="2000s-3" style="left:4210px;">
+                    <div class="year_line" style="top:300px;">2003</div>
+                    <div class="neon_light" id="neon_2003"></div>
+                    <div class="policy_line" style="top:185px;">
+                        <div class="policy_line_title">
+                        Closer Economic Partnership Arrangements makes it even easier to travel to Hong Kong &amp; Macau.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation_buttons" style="bottom:100px; right:-50px;">
+                <div class="previous_wrapper" id="previous_wrapper_timeline">
+                    <a class="previous_button" href="#strict_border_pt2" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_timeline_pre">
+                            Not-So-Easy<br>
+                            Go
+                        </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index: 1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_timeline">
+                    <a class="next_button" href="#application" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_timeline_next">
+                            The<br>
+                            Application
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+    </div>
+<!--timeline ends here-->
+
+<!--external starts here-->
+    <div id="external">
+
+        <div class="big_text" id="external_text">EXTERNAL<br>RESTRIC-<br>TIONS</div>
+
+<!--box_application starts here-->
+        <div class="box" id="box_application">
+            <a class="anchor section_anchor" name="application" style="left:-150px"></a>
+            <div id="application_title">
+                <p class="title_style1" style="line-height:80%; letter-spacing:-8px; padding-top:40px;">
+                    THE APPLICATION:<br>
+                    IT&rsquo;S<br>
+                    <div id="complicated_wrapper">
+                    <p style="font-family: LinotypeUnivers-420Cn;
+    font-weight: normal; font-style: normal; font-size:150px; letter-spacing:-10px;">COMPLICATED.</p>
+                    <img id="very" src="img/very.gif" style="position:absolute; left:260px; top:225px; width:300px;">
+                    </div>
+                </p>
+                <p class="title_style3" style="width:750px; line-height:95%; width:600px; top:-20px;">Say, you want an American B (Travel/Business) Visa, these are things you want to prepare for sure...
+                </p>
+            </div>
+            <ul id="application_list">
+                    <li>
+                        <div id="app_item1">
+                            <a class="app_item">A nonimmigrant Visa Electronic Application (DS-160);</a>
+                            <img class="app_underline" src="img/n_underline01.gif" style="width:111px; top:564px; left:481px;">
+                            <img id="app_img1" src="img/app1-2.gif">
+                        </div>
+
+                    </li>
+                    <li>
+                        <div id="app_item2">
+                            <a class="app_item">The passport of the applicant;</a>
+                            <img class="app_underline" src="img/n_underline02.gif" style="width:111px; top:604px; left:209px;">
+                            <img id="app_img2" src="img/app2-3.gif" >
+                        </div>
+                    </li>
+                    <li>
+                        <div id="app_item3">
+                            <a class="app_item">One 2” × 2” photo taken within the last six months;</a>
+                            <img class="app_underline" src="img/n_underline03.gif" style="width:78px; top:642px; left:291px;">
+                            <img id="app_img3" src="img/app3-2.gif" >
+                        </div>
+                    </li>
+                    <li>
+                        <div id="app_item4">
+                            <a class="app_item">Potentially “an additional visa issuance reciprocity fee, depending on your nationality”, which “respond[s] to the total of similar visa fees charged to US citizens by a particular country”;</a>
+                            <img class="app_underline" src="img/n_underline04.gif" style="width:311px; top:684px; left:375px;">
+                            <img id="app_img4" src="img/app4-2.gif" >
+                        </div>
+                    </li>
+                    <li>
+                        <div id="app_item5">
+                            <a class="app_item">Application fee of $160 for B Visa;</a>
+                            <img id="app_img5" src="img/app5-2.gif" >
+                            <img class="app_underline" src="img/n_underline05.gif" style="width:159px; top:805px; left:178px;">
+                        </div>
+                    </li>
+                    <li>
+                        <div id="app_item6">
+                            <a class="app_item">Reservation at a designated call center;</a>
+                            <img class="app_underline" src="img/n_underline06.gif" style="width:138px; top:843px; left:178px;">
+                            <img id="app_img6" src="img/app6.gif">
+                        </div>
+                    </li>
+                    <li>
+                        <div id="app_item7">
+                            <a class="app_item">
+                                Other supporting documents, such as:
+                                <ul id="supporting">
+                                    <li>Current proof of income, tax payments, property or business ownership, or assets; </li>
+                                    <li>Travel itinerary and/or other explanation about your planned trip; </li>
+                                    <li>A letter from your employer detailing your position, salary, how long you have been employed, and authorized vacation, and the business purpose, if any, of your U.S. trip; </li>
+                                    <li>Criminal/court records pertaining to any arrest or conviction anywhere, even if you completed your sentence or were later pardoned; </li>
+                                    <li>Documents attesting to your previous visits to the United States; </li>
+                                    <li>Depending on different occupations, the applicants should also provide additional documents proving their identities.</li>
+                                </ul>
+                            </a>
+                            <img class="app_underline" src="img/n_underline07.gif" style="width:234px; top:882px; left:220px;">
+                            <img id="app_img7" src="img/app7.gif">
+                        </div>
+                    </li>
+                </ul>
+        <div class="navigation_buttons" style="right:220px;">
+                <div class="previous_wrapper" id="previous_wrapper_app">
+                    <a class="previous_button" href="#timeline_start" style="background:none;">
+                        <p class="navigation_text_pre" id="nav_text_app_pre">
+                            Timeline:<br>
+                            Travel Policies
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_app">
+                    <a class="next_button" href="#fees" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_app_next">
+                            Expensive<br>
+                            Application<br>
+                            Fees
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+    </div>
+<!--box_application ends here-->
+
+<!--box_fees starts here-->
+        <div class="box" id="box_fees" style="padding:75px;">
+            <a class="anchor section_anchor" name="fees"></a>
+            <p class="title_style2">THE</p>
+            <p class="title_style1" style="margin-left:-41px;">EXPENSIVE</p>
+            <p class="title_style2" style="top:-5px;">APPLICATION</p>
+            <p class="title_style1" style="margin-left:-41px;">FEES</p>
+            <p class="title_style3" style="position:absolute; left:75px; top:395px; width:500px;">Visa Fees v.s. Chinese Houseold Income.</p>
+            <div id="income_wrapper">
+            <div id="chinese_income" style="position:absolute; height:150px; top:30px; left:700px;">
+                <img src="img/income-circle.png" style="position:relative; width:150px;">
+                <p class="income_number" style="position:relative; top:-90px; color:white;">&#36;175</p>
+                <p style="position:relative; font-family: AvenirLTStd-Medium; font-weight: normal; font-style: normal; font-size:13px; text-align:center; top:-60px; color:white;">
+                    Monthly<br>
+                    Household Income<br>
+                    in China
+                </p>
+                <p class="normal_text" style="position:absolute; top:187px; text-align:center; width:350px; left:-60px;">While the average monthly household income in China in 2012 is only &#36;175, many visa application fees are close to this number.</p>
+            </div>
+                <img class="visa_fee" src="img/nzvisa_a.png" style="position:absolute; width:150px; top:480px; left:-100px;" onmouseover="this.src='img/nzvisa_c.png'" onmouseout="this.src='img/nzvisa_a.png'">
+                <img class="visa_fee" src="img/krvisa_a.png" style="position:absolute; width:150px; top:427px; left:170px;" onmouseover="this.src='img/koreavisa_c.png'" onmouseout="this.src='img/krvisa_a.png'">
+                <img class="visa_fee" src="img/usvisa_a.png" style="position:absolute; width:150px; top:450px; left:360px;" onmouseover="this.src='img/usvisa_c.png'" onmouseout="this.src='img/usvisa_a.png'">
+                <img class="visa_fee" src="img/itvisa_a.png" style="position:absolute; width:150px; top:300px; left:480px;" onmouseover="this.src='img/itvisa_c.png'" onmouseout="this.src='img/itvisa_a.png'">
+                <img class="visa_fee" src="img/cavisa_a.png" style="position:absolute; width:150px; top:425px; left:600px;" onmouseover="this.src='img/cavisa_c.png'" onmouseout="this.src='img/cavisa_a.png'">
+                <img class="visa_fee" src="img/kyvisa_a.png" style="position:absolute; width:150px; top:500px; left:800px;" onmouseover="this.src='img/kyvisa_c.png'" onmouseout="this.src='img/kyvisa_a.png'">
+                <img src="img/piggiebank.png" style="position:absolute; top:600px; left:425px; width:450px;">
+                <div class="fee_wrapper" style="top:700px; left:0px;">
+                    <div class="fee_front"><img src="img/dollar1.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee01.png" style="width:120px;"></div>
+                </div>
+                <div class="fee_wrapper" style="top:650px; left:280px;">
+                    <div class="fee_front"><img src="img/dollar3.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee02.png" style="width:120px;"></div>
+                </div>
+                <div class="fee_wrapper" style="top:780px; left:180px;">
+                    <div class="fee_front"><img src="img/dollar2.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee03.png" style="width:120px;"></div>
+                </div>
+                <div class="fee_wrapper" style="top:900px; left:-200px;">
+                    <div class="fee_front"><img src="img/dollar2.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee04.png" style="width:120px;"></div>
+                </div>
+                <div class="fee_wrapper" style="top:1000px; left:100px;">
+                    <div class="fee_front"><img src="img/dollar1.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee05.png" style="width:120px;"></div>
+                </div>
+                <div class="fee_wrapper" style="top:1000px; left:500px;">
+                    <div class="fee_front"><img src="img/dollar2.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee06.png" style="width:120px;"></div>
+                </div>
+                <div class="fee_wrapper" style="top:1050px; left:700px;">
+                    <div class="fee_front"><img src="img/dollar4.png" style="width:120px;"></div>
+                    <div class="fee_back"><img src="img/fee07.png" style="width:120px;"></div>
+                </div>
+            </div>
+            <div class="navigation_buttons" style="right:220px;">
+                <div class="previous_wrapper" id="previous_wrapper_fees">
+                    <a class="previous_button" href="#application" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_fees_pre">
+                        The <br>
+                        Application
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_fees">
+                    <a class="next_button" href="#package" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_fees_next">
+                            Package <br>
+                            Holiday
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--box_fees ends here-->
+    
+<!--box_package starts here-->
+    <div class="box" id="box_package">
+        <a class="anchor section_anchor" name="package"></a>
+        <p class="title_style2" style="line-height:100%; z-index:3;">
+                THE &ldquo;SPECIAL&rdquo; AND &ldquo;FLEXIBLE&rdquo;
+        </p>
+        <p class="title_style1" style="line-height:90%; z-index:3; padding-top:40px;">
+            PACKAGE HOLIDAY
+        </p>
+        <img src="img/chinese-tourist-group2.gif" style="position:absolute; top:170px; left:50px; width:700px;">
+        <div id="travel_group">
+            <div id="danish_quote">
+                <img src="img/danish-visa-quote2.gif" style="position:absolute; top:250px; left:480px; width:700px;">
+                <p class="italic_caption" style="position:absolute; background:#FFF; color:#000; top:530px; left:800px; padding:20px 10px; width:380px; font-size:20px;">Text from &ldquo;Denmark – Open for Business and Pleasure&rdquo;, a PDF how-to brochure on visa application for Denmark by the Danish Immigration Service</p>
+            </div>
+            <p class="normal_text" style="position:absolute; top:750px; left:80px; width:950px;">Although many countries ask visa applicants to submit flight tickets and hotel reservation as a proof of activities, <a id="danish-hover">some countries, such as Denmark, asked for more from Chinese citizens: as you can see from the quote above, Chinese citizens are required to go on “package holidays” approved by Denmark.</a></p>
+            <img src="img/danish-quote-underline1.gif" style="position:absolute; top:770px; left:356px; height:12px;">
+            <img src="img/danish-quote-underline2.gif" style="position:absolute; top:800px; left:550px; height:12px;">
+        </div>
+            <p class="normal_text" style="position:absolute; top:845px; left:80px; width:950px;">&nbsp; &nbsp; &nbsp; &nbsp;Denmark is not the only country having such policy toward Chinese citizens. Another personal experience of mine suggests that Norway, Denmark’s neighbor, also have (at least had) similar policy. Once I applied for a business visa for an international student festival in Norway, at Norway Consulate General in Shanghai in the December of 2010. I was granted a visa for the trip easily thanks to the invitation letter, but when I asked if I could have a couple of extra days to travel in Norway and visit a friend on a tourist visa. I was told that I could not because I was actually on a business visa and Norway did not grant travel visas to Chinese citizens traveling independently.</p>
+        <div class="navigation_buttons" style="right:220px;">
+                <div class="previous_wrapper" id="previous_wrapper_package">
+                    <a class="previous_button" href="#fees" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_package_pre">
+                        Expensive<br>
+                        Application<br>
+                        Fees
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_package">
+                    <a class="next_button" href="#gdp" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_package_next">
+                            GDP<br>
+                            Per Capita
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+    </div>
+<!--box_package ends here-->
+
+<!--box_gdp starts here-->
+        <div class="box" id="box_gdp" style="padding:75px;">
+            <a class="anchor section_anchor" name="gdp"></a>
+            <p class="title_style1" style="line-height:90%; z-index:3;">
+                GDP<br>
+                PER CAPITA
+            </p>
+            <p class="title_style3" style="position:absolute; left:87px; top:321px; width:300px; z-index:3;">Asian Countries, whose citizens can visit the US without a visa for less than 90 days.</p>
+            <p class="normal_text" style="position:absolute; left:425px; top:685px; width:600px; z-index:3;">The 5 Asian Countries in the US Visa Waiver Program are the 5 richest countries/territory in Asia (excluding the Middle East). China has much lower GDP per capita compared with its rich Asian neighbors in the US Visa Waiver Program.</p>
+            <div id="us-visawaiver">
+                <img src="img/us-visa-waiver-animation.gif" style="width:600px;">
+            </div>
+            <div style="position:absolute; top:850px;">
+                <p class="title_style2" style="position:absolute; top:-23px; width:500px;">GENERALLY SPEAKING</p>
+                <p class="title_style4" style="position:absolute; top:11px; left:-7px;">RICHER,</p>
+                <p class="title_style4" style="position:absolute; top:98px; left:-7px;">FREER.</p>
+                <p class="normal_text" style="top:200px; width:290px;">Overall, the richer a country is on average, the less visa restriction its citizens face. China ranks 83rd in GDP per capita, and 82nd in the &ldquo;Henley &amp; Partners Visa Restriction Index 2013&rdquo;.<br>
+                &nbsp; &nbsp; &nbsp; &nbsp;Here are the countries that face the least and the most visa restrictions, and they are also some of the richest and poorest countries in the world.</p>
+                <div style="position:absolute; left:150px; top:-30px;">
+                    <div id="freest_wrapper">
+                        <img class="gdp-circle" id="finland" src="img/finland-a.gif" style="position:absolute; height:93px; top:50px; left:218px;">
+                        <img class="gdp-circle" id="germany" src="img/germany-a.gif" style="position:absolute; height:93px; top:200px; left:160px;">
+                        <img class="gdp-circle" id="usa" src="img/usa-a.gif" style="position:absolute; height:93px; top:10px; left:350px;">
+                        <img class="gdp-circle" id="sweden" style="position:absolute; height:93px; top:300px; left:282px;" src="img/sweden-a.gif">
+                        <img class="gdp-circle" id="luxembourg"src="img/luxembourg-a.gif" style="position:absolute; height:93px; top:250px; left:450px;">
+                        <img class="gdp-circle" id="uk" src="img/uk-a.gif" style="position:absolute; height:93px; top:50px; left:550px;">
+                        <img class="gdp-circle" id="denmark" src="img/denmark-a.gif" style="position:absolute; height:93px; top:10px; left:715px;">
+                    </div>
+                    <div id="leastfree_wrapepr">
+                        <img class="gdp-circle" id="pakistan" src="img/pakistan-a.gif" style="position:absolute; height:93px; top:115px; left:465px;" onmouseover="this.src='img/pakistan-c.gif'" onmouseout="this.src='img/pakistan-a.gif'">
+                        <img class="gdp-circle" id="sudan" src="img/sudan-a.gif" style="position:absolute; height:93px; top:350px; left:200px;" onmouseover="this.src='img/sudan-c.gif'" onmouseout="this.src='img/sudan-a.gif'">
+                        <img class="gdp-circle" id="nepal" src="img/nepal-a.gif" style="position:absolute; height:93px; top:171px; left:260px;" onmouseover="this.src='img/nepal-c.gif'" onmouseout="this.src='img/nepal-a.gif'">
+                        <img class="gdp-circle" id="eritrea" src="img/eritrea-a.gif" style="position:absolute; height:93px; top:435px; left:375px;" onmouseover="this.src='img/eritrea-c.gif'" onmouseout="this.src='img/eritrea-a.gif'">
+                        <img class="gdp-circle" id="afghanistan" src="img/afghanistan-a.gif" style="position:absolute; height:93px; top:300px; left:700px;" onmouseover="this.src='img/afghanistan-c.gif'" onmouseout="this.src='img/afghanistan-a.gif'">
+                        <img class="gdp-circle" id="iraq" src="img/iraq-a.gif" style="position:absolute; height:93px; top:155px; left:600px;" onmouseover="this.src='img/iraq-c.gif'" onmouseout="this.src='img/iraq-a.gif'">
+                    </div>
+                </div>
+            </div>
+            <div class="navigation_buttons" style="right:220px;">
+                <div class="previous_wrapper" id="previous_wrapper_gpd">
+                    <a class="previous_button" href="#package" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_gpd_pre">
+                        Package<br>
+                        Holiday
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_gpd">
+                    <a class="next_button" href="#immigration" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_gpd_next">
+                            Illegal <br>
+                            Immigration
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--box_gdp ends here-->
+
+<!--box_communism starts here-->
+            <div class="box" id="box_communism">
+                <a class="anchor section_anchor" name="communism"></a>
+                <p class="title_style2">THE IDEOLOGICAL DIFFERENCE</p>
+                <p class="title_style1" style="line-height:90%; padding-top:30px;">
+                    COMMUNIST<br>
+                    CHINA
+                </p>
+                <p class="title_style3" style="position:absolute; top:90px; left:772px; width:350px;">All communist countries in the world are faced with severe visa restrictions.</p>
+                <p class="normal_text" style="position:absolute; top:380px; width:400px;">There are only five communists left in the world: China, North Korea, Cuba, Vietnam, and Laos. Granted that they are not the most friendly countries toward foreign visitors, their citizens are faced with the most severe form of visa restrictions. In terms of travel freedom, they all rank the bottom one third out of 199 countries.</p>
+                
+                <div id="china_wrapper">
+                    <img src="img/communist-china.gif" style="position:absolute; left:450px; top:194px; width:600px;" onmouseover="this.src='img/communist-china3.gif'" onmouseout="this.src='img/communist-china.gif'">
+                    <img id="com-china-cover" src="img/communist-china3.gif" style="position:absolute; left:450px; top:194px; width:600px;">
+                    <div id="china_box">
+                        CHINA<br>
+                        <br>
+                        <p style="font-size:20px; padding-top:10px;">ranks</p><br>
+                        <p style="font-size:60px; padding-top:60px;">82</p><br>
+                        <br>
+                        <br>
+                        <p style="font-size:20px;">out of 93</p>
+                    </div>
+                </div>
+                <div id="other_comms">
+                        <img class="comm" src="img/cuba.gif" style="" onmouseover="this.src='img/cuba2.gif'" onmouseout="this.src='img/cuba.gif'">  
+                        <img class="comm" src="img/laos.gif" style="" onmouseover="this.src='img/laos2.gif'" onmouseout="this.src='img/laos.gif'">
+                        <img class="comm" src="img/vietnam.gif" style="height:110px" onmouseover="this.src='img/vietnam2.gif'" onmouseout="this.src='img/vietnam.gif'">
+                        <img class="comm" src="img/northkorea.gif" style="height:100px; left:150px" onmouseover="this.src='img/northkorea2.gif'" onmouseout="this.src='img/northkorea.gif'">
+                </div>
+            <div class="navigation_buttons" style="right:220px; bottom:145px;">
+                <div class="previous_wrapper" id="previous_wrapper_communism">
+                    <a class="previous_button" href="#immigration" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_communism_pre">
+                        Illegal<br>
+                        Immigration
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_communism">
+                    <a class="next_button" href="#connection" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_communism_next">
+                            Lack of<br>
+                            Connections
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+            </div>
+<!--box_communism ends here-->
+
+<!--box_immigration starts here-->
+            <div class="box" id="box_immigration">
+                <a class="anchor section_anchor" name="immigration"></a>
+                <p class="title_style2" style="position:absolute; z-index:1; width:700px;">CONCERNS ABOUT</p>
+                <p class="title_style1" style="line-height:90%; padding-top:50px; position:absolute; z-index:1;">
+                    ILLEGAL<br>
+                    IMMIGRATION
+                </p>
+                <div id="stats_wrapper" style="position:absolute; left:720px; top:-10px;">
+                    <img src="img/immi-quote-underline.png" style="position:absolute; width:300px; top:350px; left:30px;">
+                    <a id="stats_text">
+                        <p class="title_style3" style="position:absolute; z-index:1; width:300px; top:360px; left:80px;">&ldquo;Only 20 per cent of illegal immigrants crossed the border illegally, whereas the vast majority entered the country perfectly legally, but then overstayed the allowed period of time&rdquo;</p>
+                    </a>
+                    <img id="stats" src="img/legalstats.gif">
+                </div>
+                <p class="normal_text" style="position:absolute; z-index:3; width:300px; top:680px; left:800px;">Says a French official against illegal immigration and employment</p>
+                <div id="immigration_wrapper">
+                    <img src="img/chinatown2.png" style="position:absolute; z-index:0; width:700px; top:300px; left:350px;">
+                    <p id="immigration_caption" class="italic_caption">Many developed countries face the challenge of illegal immigration from China. The growth and expansion of Chinatowns around the world are the evidence of growing Chinese populations, among which are some undocumented populations, a problem developed countries try hard to tackle.</p>
+                </div>
+                <div class="navigation_buttons" style="right:220px; bottom:100px">
+                <div class="previous_wrapper" id="previous_wrapper_immigration">
+                    <a class="previous_button" href="#gdp" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_immigration_pre">
+                        GDP<br>
+                        Per Capita
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_immigration">
+                    <a class="next_button" href="#communism" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_immigration_next">
+                            Communist <br>
+                            China
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+            </div>
+<!--box_immigration ends here-->
+
+<!--box_connection starts here-->
+        <div class="box" id="box_connection">
+            <a class="anchor section_anchor" name="connection"></a>
+                <p class="title_style2">CHINA&rsquo;S</p>
+                <p class="title_style1" style="line-height:90%; padding-top:30px; z-index:2;">
+                    LACK OF<br>
+                    CONNECTIONS
+                </p>
+                <img src="img/connection_map.gif" style="position:absolute; top:230px; left:5px; width:700px;">
+                <div id="four_connections">
+                    <img id="nofriends" src="img/no-friends3.gif">
+                    <div style="width:500px; height:100px; background:none;"></div>
+                <div id="connection1_wrapper">
+                    <img src="img/connection1.png" style="position:absolute; top:0px; left:0px; height:109px;" onmouseover="this.src='img/connection1-b.png'" onmouseout="this.src='img/connection1.png'">
+                    <div class="normal_text connections_text" id="connection1_text">Even though China has been a cultural influence for its Asian neighbors over the history, the cultural similarities somehow haven&rsquo;t given rise to harmonious relationships with them.</div>
+                </div>
+                <div id="connection2_wrapper">
+                    <img src="img/connection2.png" style="position:absolute; top:0px; left:135px; height:109px;" onmouseover="this.src='img/connection2-b.png'" onmouseout="this.src='img/connection2.png'">
+                    <div class="normal_text connections_text" id="connection2_text">China is not on good terms with most of its neighbors due to territorial disputes.</div>
+                </div>
+                <div id="connection3_wrapper">
+                    <img src="img/connection3.png" style="position:absolute; top:0px; left:270px; height:109px;" onmouseover="this.src='img/connection3-b.png'" onmouseout="this.src='img/connection3.png'">
+                    <div class="normal_text connections_text" id="connection3_text">Although China was colonized by a series of imperial powers in different parts of China, it did not develop a particuarly close relationship with them and therefore has not benefited from the colonial/historical ties.</div>
+                </div>
+                <div id="connection4_wrapper">
+                    <img src="img/connection4.png" style="position:absolute; top:0px; left:405px; height:109px;" onmouseover="this.src='img/connection4-b.png'" onmouseout="this.src='img/connection4.png'">
+                    <div class="normal_text connections_text" id="connection4_text">Besides World Trade Organization (WTO), China rarely joins global or regional trade groups, which ususally increases the ease of travel.</div>
+                </div>
+                </div>
+                <div id="map-switch">
+                    <div id="sco">
+                        <a href="#" id="sco_text">
+                            <img src="img/sco-icon.gif" style="width:25px; position:absolute; top:8px; left:-50px; z-index:5; onmouseover="this.src='img/sco-icon2.gif'" onmouseout="this.src='img/sco-icon.gif'"">
+                            Countries <br>in the Shanghai Cooperation Organisation (SCO) with China
+                        </a>
+                        <img id="sco_map" src="img/soc-map.gif">
+                    </div>
+                    <div id="disputes">
+                        <a href="#" id="disputes_text">
+                            <img src="img/disputes-icon.gif" style="width:25px; position:absolute; top:8px; left:-50px;" onmouseover="this.src='img/disputes-icon2.gif'" onmouseout="this.src='img/disputes-icon.gif'">
+                            Countries <br>with Ongoing Territorial Disputes with China
+                        </a>
+                        <img id="disputes_map" src="img/disputes-map.gif">
+                    </div>
+                </div>
+            <div class="navigation_buttons" style="right:220px; bottom:100px;">
+                <div class="previous_wrapper" id="previous_wrapper_connection">
+                    <a class="previous_button" href="#communism" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_connection_pre">
+                        Communist<br>
+                        China
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_connection">
+                    <a class="next_button" href="#conclusion" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_connection_next">
+                            <br>
+                            Conclusion<br>
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--box_connection ends here-->
+
+    </div>
+<!--external ends here-->
+
+
+<!--conclusion starts here-->
+    <div id="lastwords">
+        <div class="big_text" id="lastwords_text">LAST<br>WORDS</div>
+        <div class="box" id="box_conclusion">
+            <a class="anchor section_anchor" name="conclusion"></a>
+            <p class="title_style2" style="position:absolute; z-index:1; width:700px;">CONCLUSION</p>
+            <p class="title_style1" style="line-height:90%; padding-top:50px; position:absolute; z-index:1;">THE SECLUDED CHINESE</p>
+            <p class="title_style3" style="position:absolute; top:370px; width:440px; z-index:2;">Travel restrctions, along with the Internet censorship imposed by the Chinese government, prevent the majority of the Chinese from knowing what is going on outside China. Such ignorance has given rise to a very strong sense of nationalism that may pose a threat to international security.</p>
+            <img src="img/china-nationalism.png" style="position:absolute; top:150px; left:500px; z-index:0; width:500px;" onmouseover="this.src='img/china-nationalism2.gif'" onmouseout="this.src='img/china-nationalism.png'">
+            <div class="navigation_buttons" style="right:220px; bottom:100px;">
+                <div class="previous_wrapper" id="previous_wrapper_conclusion">
+                    <a class="previous_button" href="#connection" style="background:none;">
+                    <p class="navigation_text_pre" id="nav_text_conclusion_pre">
+                        Lack of<br>
+                        Connection
+                    </p>
+                        <img class="previous_button" src="img/previous-button.gif" onmouseover="this.src='img/previous-button-stop2.gif'" onmouseout="this.src='img/previous-button.gif'" style="z-index:1;">
+                    </a>
+                </div>
+                <div class="next_wrapper" id="next_wrapper_conclusion">
+                    <a class="next_button" href="#home" style="background:none;">
+                        <p class="navigation_text_next" id="nav_text_conclusion_next">
+                            <br>
+                            Home<br>
+                        <br>
+                        </p>
+                        <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--conclusion ends here-->
+    
+<!--random starts here-->
+    <div id="random">
+        <div class="rando"></div>
+        <div class="rando"></div>
+        <div class="rando"></div>
+        <div class="rando"></div>
+        <div class="rando"></div>
+    </div>
+<!--random ends here-->
+</body>
+</html>

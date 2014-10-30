@@ -72,7 +72,7 @@
     <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit2.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="./js/personal/rich-poor-gdp.js"></script>
+    <script src="./javascripts/rich-poor-gdp.js"></script>
     <script type="text/javascript">
         function toggleContent() {
         // Get the DOM reference
@@ -82,8 +82,8 @@
         contentId.style.display = "block";
 }
     </script>
-
-    <script src="./js/personal/scroll.js"></script>
+    <script src="./javascripts/scroll.js"></script>
+    <script src="./javascripts/prev-next-nav.js"></script>
 </head>
 <body>
     <div id="content">
@@ -99,7 +99,7 @@
 
         <a class="menu_item" id="button_border2" href="#strict_border_pt2">Not-So-Easy Go</a>
 
-        <a class="menu_item" id="button_recip" href="#recip">The Rule of Reciprocality</a>
+        <a class="menu_item" id="button_recip" href="#recip">The Rule of Recipro-<br>cality</a>
 
         <a class="menu_item" id="button_neumayer" href="#neumayer_analysis">Common Reasons for Visa Restrictions</a>
 
@@ -121,10 +121,15 @@
 
     </div>
     <a name="home" style="position:absolute; top:0px; left:0px;"></a>
-    <div id="navigation_bar">
-        <div class="nav_button" id="showmap" onclick="toggleContent()">Map</div>
-        <a id="startover_text" href="#home"><div class="nav_button" id="startover">Home</div></a>
-    </div>
+
+    <ul id="navigation_bar">
+        <li><div class="nav_button" id="showmap" onclick="toggleContent()">Map</div></li>
+        <li><a id="startover_text" href="#home"><div class="nav_button" id="startover">Home</div></a></li>
+        <li><div class="nav_button" id="overall_prev">Previous</div></li>
+        <li><div class="nav_button" id="overall_next">Next</div></li>
+    </ul>
+
+
     <div id="title_page">
         <p id="title_page_line1">WHY IS IT HARD</p>
         <p id="title_page_line2">
@@ -140,7 +145,7 @@
                     </p>
                 </div>
         </div>
-        <div class="next_wrapper" id="next_wrapper_title" style="position:absolute; left:1175px; top:750px; z-index:5;">
+<!--         <div class="next_wrapper" id="next_wrapper_title" style="position:absolute; left:1175px; top:750px; z-index:5;">
                 <a class="next_button" href="#welcome" style="background:none;">
                     <p class="navigation_text_next" id="nav_text_title_next">
                         <br>
@@ -148,7 +153,7 @@
                     </p>
                     <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                 </a>
-        </div>
+        </div> -->
 
 
         <img id="so" src="img/so-animation2.gif">
@@ -208,7 +213,7 @@
                     <p class="travel_rank" id="afghanistan_rank"><span style="background:#FFFF00;">Ranks 103rd out of 103 scores of 191 countries<br>in terms of visa freedom.</span></p>
                 </div>
             </div>
-            <div class="navigation_buttons" style="right:220px;">
+<!--             <div class="navigation_buttons" style="right:220px;">
                 <div class="previous_wrapper" id="previous_wrapper_welcome">
                     <a class="previous_button" href="#home" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_welcome_pre">
@@ -230,7 +235,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -246,7 +251,7 @@
             <img src="img/recip_underline.gif" style="position:absolute; width:365px; top:556px; left:580px; z-index:5;">
             <p class="normal_text" style="position:absolute; top:395px; left:610px; width:400px;">Generally, countries base their visa policies on the principle of reciprocity. This means that country A is very likely to treat the citizens of country B the way country B treats the citizens of country A in terms of visa policies.</p>
             <p class="normal_text" style="position:absolute; top:565px; left:610px; width:400px;">So, to a large extent, <a class="inline_highlighter"href="#strict_border_pt1">how China treats other citizens in visa policies </a>also affects the level of difficulty for the Chinese to travel abroad.</p>
-            <div class="navigation_buttons">
+            <!-- <div class="navigation_buttons">
                 <div class="previous_wrapper" id="previous_wrapper_recip">
                     <a class="previous_button" href="#welcome" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_recip_pre">
@@ -266,7 +271,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--reciprocality ends here-->
 
@@ -426,7 +431,7 @@
 
                 </div>
             </div>
-            <div class="navigation_buttons" style="right:200px;">
+           <!--  <div class="navigation_buttons" style="right:200px;">
                 <div class="previous_wrapper" id="previous_wrapper_neumayer">
                     <a class="previous_button" href="#recip" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_neumayer_pre">
@@ -449,7 +454,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--neumayer ends here-->
     </div>
@@ -546,7 +551,7 @@
                 <div id="how_highlight"></div>
             </div>
             </div>
-            <div class="navigation_buttons" style="right:200px;">
+            <!-- <div class="navigation_buttons" style="right:200px;">
                 <div class="previous_wrapper" id="previous_wrapper_hukou02">
                     <a class="previous_button" href="#neumayer_analysis" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_hukou02_pre">
@@ -566,7 +571,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 <!--not-so-easy come starts here-->
@@ -632,7 +637,7 @@
             </div>
         </div>
         </div>
-        <div class="navigation_buttons" style="bottom:0px">
+<!--         <div class="navigation_buttons" style="bottom:0px">
                 <div class="previous_wrapper" id="previous_wrapper_border01">
                     <a class="previous_button" href="#hukou_system" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_border01_pre">
@@ -653,7 +658,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--not-so-easy come ends here-->
 
@@ -679,7 +684,7 @@
                     <img id="kidding" src="img/kidding.gif">
                 </div>
             </div>
-            <div class="navigation_buttons" style="bottom:0px">
+            <!-- <div class="navigation_buttons" style="bottom:0px">
                 <div class="previous_wrapper" id="previous_wrapper_border02">
                     <a class="previous_button" href="#strict_border_pt1" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_border02_pre">
@@ -698,14 +703,14 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--not-so-easy go ends here-->
 
 <!--timeline starts here-->
         <div class="box" id="box_timeline">
             <div id="timeline_content">
-            <a name="timeline_start" class="section_anchor" style="top:-200px;"></a>
+            <a name="timeline_start" class="section_anchor" style="top:-120px;"></a>
             <p class="title_style1" style="line-height:130px;">CHINA&rsquo;S<br>TRAVEL<br> POLICIES</p>
             <p class="title_style2" style="padding-top:30px;">OVER THE PAST 30 YEARS</p>
             <p class="title_style3" style="width:600px; padding-top:40px;">
@@ -935,7 +940,7 @@
                 </div>
             </div>
         </div>
-        <div class="navigation_buttons" style="bottom:100px; right:-50px;">
+<!--         <div class="navigation_buttons" style="bottom:100px; right:-50px;">
                 <div class="previous_wrapper" id="previous_wrapper_timeline">
                     <a class="previous_button" href="#strict_border_pt2" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_timeline_pre">
@@ -954,7 +959,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
     </div>
 <!--timeline ends here-->
 
@@ -1041,7 +1046,7 @@
                         </div>
                     </li>
                 </ul>
-        <div class="navigation_buttons" style="right:220px;">
+<!--         <div class="navigation_buttons" style="right:220px;">
                 <div class="previous_wrapper" id="previous_wrapper_app">
                     <a class="previous_button" href="#timeline_start" style="background:none;">
                         <p class="navigation_text_pre" id="nav_text_app_pre">
@@ -1062,7 +1067,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
     </div>
 <!--box_application ends here-->
 
@@ -1121,7 +1126,7 @@
                     <div class="fee_back"><img src="img/fee07.png" style="width:120px;"></div>
                 </div>
             </div>
-            <div class="navigation_buttons" style="right:220px;">
+<!--             <div class="navigation_buttons" style="right:220px;">
                 <div class="previous_wrapper" id="previous_wrapper_fees">
                     <a class="previous_button" href="#application" style="background:none;">
                     <p class="navigation_text_pre" id="nav_text_fees_pre">
@@ -1140,7 +1145,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--box_fees ends here-->
 
@@ -1164,7 +1169,7 @@
             <img src="img/danish-quote-underline2.gif" style="position:absolute; top:800px; left:550px; height:12px;">
         </div>
             <p class="normal_text" style="position:absolute; top:845px; left:80px; width:950px;">&nbsp; &nbsp; &nbsp; &nbsp;Denmark is not the only country having such policy toward Chinese citizens. Another personal experience of mine suggests that Norway, Denmark’s neighbor, also have (at least had) similar policy. Once I applied for a business visa for an international student festival in Norway, at Norway Consulate General in Shanghai in the December of 2010. I was granted a visa for the trip easily thanks to the invitation letter, but when I asked if I could have a couple of extra days to travel in Norway and visit a friend on a tourist visa. I was told that I could not because I was actually on a business visa and Norway did not grant travel visas to Chinese citizens traveling independently.</p>
-        <div class="navigation_buttons" style="right:220px;">
+<!--         <div class="navigation_buttons" style="right:220px;">
                 <div class="previous_wrapper" id="previous_wrapper_package">
                     <a class="previous_button" href="#fees" style="background:none;">
                     <p class="navigation_text_pre" id="nav_text_package_pre">
@@ -1185,7 +1190,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
     </div>
 <!--box_package ends here-->
 
@@ -1226,7 +1231,7 @@
                         <img class="gdp-circle" id="iraq" src="img/iraq-a.gif" style="position:absolute; height:93px; top:155px; left:600px;" onmouseover="this.src='img/iraq-c.gif'" onmouseout="this.src='img/iraq-a.gif'">
                     </div>
                 </div>
-            </div>
+            <!-- </div>
             <div class="navigation_buttons" style="right:220px;">
                 <div class="previous_wrapper" id="previous_wrapper_gpd">
                     <a class="previous_button" href="#package" style="background:none;">
@@ -1246,7 +1251,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--box_gdp ends here-->
 
@@ -1280,7 +1285,7 @@
                         <img class="comm" src="img/vietnam.gif" style="height:110px" onmouseover="this.src='img/vietnam2.gif'" onmouseout="this.src='img/vietnam.gif'">
                         <img class="comm" src="img/northkorea.gif" style="height:100px; left:150px" onmouseover="this.src='img/northkorea2.gif'" onmouseout="this.src='img/northkorea.gif'">
                 </div>
-            <div class="navigation_buttons" style="right:220px; bottom:145px;">
+            <!-- <div class="navigation_buttons" style="right:220px; bottom:145px;">
                 <div class="previous_wrapper" id="previous_wrapper_communism">
                     <a class="previous_button" href="#immigration" style="background:none;">
                     <p class="navigation_text_pre" id="nav_text_communism_pre">
@@ -1299,7 +1304,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
             </div>
 <!--box_communism ends here-->
 
@@ -1323,7 +1328,7 @@
                     <img src="img/chinatown2.png" style="position:absolute; z-index:0; width:700px; top:300px; left:350px;">
                     <p id="immigration_caption" class="italic_caption">Many developed countries face the challenge of illegal immigration from China. The growth and expansion of Chinatowns around the world are the evidence of growing Chinese populations, among which are some undocumented populations, a problem developed countries try hard to tackle.</p>
                 </div>
-                <div class="navigation_buttons" style="right:220px; bottom:100px">
+<!--             <div class="navigation_buttons" style="right:220px; bottom:100px">
                 <div class="previous_wrapper" id="previous_wrapper_immigration">
                     <a class="previous_button" href="#gdp" style="background:none;">
                     <p class="navigation_text_pre" id="nav_text_immigration_pre">
@@ -1343,7 +1348,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
             </div>
 <!--box_immigration ends here-->
 
@@ -1392,7 +1397,7 @@
                         <img id="disputes_map" src="img/disputes-map.gif">
                     </div>
                 </div>
-            <div class="navigation_buttons" style="right:220px; bottom:100px;">
+            <!-- <div class="navigation_buttons" style="right:220px; bottom:100px;">
                 <div class="previous_wrapper" id="previous_wrapper_connection">
                     <a class="previous_button" href="#communism" style="background:none;">
                     <p class="navigation_text_pre" id="nav_text_connection_pre">
@@ -1412,7 +1417,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 <!--box_connection ends here-->
 
@@ -1429,7 +1434,7 @@
             <p class="title_style1" style="line-height:90%; padding-top:50px; position:absolute; z-index:1;">THE SECLUDED CHINESE</p>
             <p class="title_style3" style="position:absolute; top:370px; width:440px; z-index:2;">Travel restrctions, along with the Internet censorship imposed by the Chinese government, prevent the majority of the Chinese from knowing what is going on outside China. Such ignorance has given rise to a very strong sense of nationalism that may pose a threat to international security.</p>
             <img src="img/china-nationalism.png" style="position:absolute; top:150px; left:500px; z-index:0; width:500px;" onmouseover="this.src='img/china-nationalism2.gif'" onmouseout="this.src='img/china-nationalism.png'">
-            <div class="navigation_buttons" style="right:220px; bottom:100px;">
+<!--             <div class="navigation_buttons" style="right:220px; bottom:100px;">
                 <div class="previous_wrapper" id="previous_wrapper_conclusion">
                     <a class="previous_button" href="#connection" style="background:none;">
                     <p class="navigation_text_pre" id="nav_text_conclusion_pre">
@@ -1449,7 +1454,7 @@
                         <img class="next_button" src="img/next-icon.gif" onmouseover="this.src='img/next-icon-stop2.gif'" onmouseout="this.src='img/next-icon.gif'">
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 <!--conclusion ends here-->

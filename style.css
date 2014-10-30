@@ -41,7 +41,9 @@
         .nav_button {
             color: #FFF;
             padding: 20px;
-            text-decoration:none;
+            text-decoration: none;
+            margin: 5px;
+            cursor: pointer;
         }
 
         .nav_button:hover {
@@ -151,8 +153,14 @@
         /*navigation starts here*/
         #navigation_bar {
             position:fixed;
-            right:380px;
+            right: 50px;
             z-index: 20;
+            list-style-type: none;
+            margin: 25px 0px;
+        }
+
+        #navigation_bar li {
+            float: left;
         }
 
         .nav_button {
@@ -171,20 +179,6 @@
             color: #000;
         }
 
-
-        #showmap {
-            left: 70px;
-            cursor: pointer;
-            position: absolute;
-            top: 30px;
-        }
-
-        #startover {
-            left: 175px;
-            cursor: pointer;
-            position: absolute;
-            top: 30px;
-        }
         /*navigation ends here*/
 
         /* previous/next navigation buttons start here */
@@ -357,16 +351,16 @@
         #content {
             position: fixed;
             padding: 50px;
-            left:50px;
+            left:150px;
             top: 50px;
             display: none;
-            width: 1200px;
-            height: 700px;
+            width: 1000px;
+            height: 600px;
             background: #FFF;
             border: 5px solid #000;
             z-index: 11;
             background-image:url(img/content_map3.gif);
-            background-size: 1200px auto;
+            background-size: 1000px auto;
             background-repeat: no-repeat;
             background-position:center;
         }
@@ -380,8 +374,8 @@
             font-family: AvenirLTStd-Black;
             font-weight: normal;
             font-style: normal;
-            font-size:13px;
-            width: 80px;
+            font-size: 12px;
+            width: 70px;
             height: 60px;
             cursor:pointer;
             padding: 10px 5px;
@@ -416,58 +410,58 @@
         #button_timeline {
             top: 445px;
             left: 70px;
-            width: 400px;
+            width: 350px;
         }
 
         #button_border1 {
             top: 175px;
-            left: 222px;
+            left: 208px;
         }
 
         #button_border2 {
             top: 175px;
-            left: 387px;
+            left: 347px;
             height: 80px;
         }
 
         #button_recip {
             top: 175px;
-            left: 600px;
+            left: 505px;
         }
 
         #button_neumayer {
             top: 280px;
-            left:600px;
-            height: 255px;
+            left: 505px;
+            height: 146px;
         }
 
         #button_app {
             top: 175px;
-            left: 800px;
+            left: 700px;
             height: 90spx;
         }
 
         #button_gdp {
             top: 280px;
-            left: 800px;
+            left: 700px;
             height: 120px;
         }
 
         #button_fees {
             top: 175px;
-            left: 965px;
+            left: 825px;
             height: 120px;
         }
 
         #button_immigration {
             top: 350px;
-            left: 965px;
+            left: 825px;
             height: 50px;
         }
 
         #button_communism {
             top: 445px;
-            left: 800px;
+            left: 700px;
         }
 
         #rotation {
@@ -477,22 +471,22 @@
 
         #button_connection {
             top: 445px;
-            left: 965px;
+            left: 825px;
         }
 
         #button_package {
-            left: 1130px;
+            left: 950px;
             top: 175px;
         }
 
         #button_welcome {
-            left: 600px;
+            left: 505px;
             top: 50px;
         }
 
         #button_conclusion {
-            left: 600px;
-            top: 600px;
+            left: 505px;
+            top: 580px;
         }
 
 /* big text in the back */

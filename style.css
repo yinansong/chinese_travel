@@ -351,7 +351,7 @@
 
         #content {
             position: fixed;
-            padding: 10px 50px;
+            padding: 15px 70px;
             left: 150px;
             top: 50px;
             display: none;
@@ -427,42 +427,42 @@
 
         #button_recip {
             top: 175px;
-            left: 455px;
+            left: 475px;
         }
 
         #button_neumayer {
             top: 280px;
-            left: 455px;
+            left: 475px;
             height: 146px;
         }
 
         #button_app {
             top: 175px;
-            left: 612px;
+            left: 645px;
             height: 90px;
         }
 
         #button_gdp {
             top: 318px;
-            left: 612px;
+            left: 645px;
             height: 70px;
         }
 
         #button_fees {
             top: 175px;
-            left: 750px;
+            left: 790px;
             height: 120px;
         }
 
         #button_immigration {
             top: 350px;
-            left: 750px;
+            left: 790px;
             height: 50px;
         }
 
         #button_communism {
             top: 445px;
-            left: 612px;
+            left: 645px;
         }
 
         #rotation {
@@ -472,21 +472,21 @@
 
         #button_connection {
             top: 445px;
-            left: 750px;
+            left: 790px;
         }
 
         #button_package {
-            left: 890px;
+            left: 935px;
             top: 175px;
         }
 
         #button_welcome {
-            left: 455px;
+            left: 475px;
             top: 50px;
         }
 
         #button_conclusion {
-            left: 455px;
+            left: 475px;
             top: 480px;
         }
 

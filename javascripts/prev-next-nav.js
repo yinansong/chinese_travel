@@ -26,6 +26,8 @@ $(document).ready(function(){
   console.log(anchors[counter]);
 
   $('#overall_next').click(function(){
+    $('#overall_prev').show("slow");
+
     counter = (counter + 1) % anchors.length;
     // the modulus (%) operator resets the counter to 0
     // when it reaches the length of the array
@@ -60,7 +62,5 @@ $(document).ready(function(){
                     }, 1500, function(){
     });
   });
-
-  alert(window.location);
 
 });

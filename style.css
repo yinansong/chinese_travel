@@ -351,11 +351,11 @@
 
         #content {
             position: fixed;
-            padding: 50px;
-            left:150px;
+            padding: 10px 50px;
+            left: 150px;
             top: 50px;
             display: none;
-            width: 1000px;
+            width: 900px;
             height: 600px;
             background: #FFF;
             border: 5px solid #000;
@@ -377,7 +377,7 @@
             font-style: normal;
             font-size: 12px;
             width: 70px;
-            height: 60px;
+            height: 50px;
             cursor:pointer;
             padding: 10px 5px;
         }
@@ -392,77 +392,77 @@
 
         #button_home {
             position: absolute;
-            left: 70px;
+            left: 30px;
             top:50px;
         }
 
         #button_hukou1 {
             top: 175px;
-            left: 70px;
+            left: 30px;
             height: 180px;
         }
 
 
         #button_hukou2 {
             top: 275px;
-            left: 70px;
+            left: 50px;
         }
 
         #button_timeline {
             top: 445px;
-            left: 70px;
-            width: 350px;
+            left: 30px;
+            width: 340px;
         }
 
         #button_border1 {
             top: 175px;
-            left: 208px;
+            left: 170px;
         }
 
         #button_border2 {
             top: 175px;
-            left: 347px;
+            left: 300px;
             height: 80px;
         }
 
         #button_recip {
             top: 175px;
-            left: 505px;
+            left: 455px;
         }
 
         #button_neumayer {
             top: 280px;
-            left: 505px;
+            left: 455px;
             height: 146px;
         }
 
         #button_app {
             top: 175px;
-            left: 700px;
-            height: 90spx;
+            left: 612px;
+            height: 90px;
         }
 
         #button_gdp {
-            top: 280px;
-            left: 700px;
-            height: 120px;
+            top: 318px;
+            left: 612px;
+            height: 70px;
         }
 
         #button_fees {
             top: 175px;
-            left: 825px;
+            left: 750px;
             height: 120px;
         }
 
         #button_immigration {
             top: 350px;
-            left: 825px;
+            left: 750px;
             height: 50px;
         }
 
         #button_communism {
             top: 445px;
-            left: 700px;
+            left: 612px;
         }
 
         #rotation {
@@ -472,22 +472,22 @@
 
         #button_connection {
             top: 445px;
-            left: 825px;
+            left: 750px;
         }
 
         #button_package {
-            left: 950px;
+            left: 890px;
             top: 175px;
         }
 
         #button_welcome {
-            left: 505px;
+            left: 455px;
             top: 50px;
         }
 
         #button_conclusion {
-            left: 505px;
-            top: 580px;
+            left: 455px;
+            top: 480px;
         }
 
 /* big text in the back */

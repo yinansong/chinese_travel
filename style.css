@@ -393,101 +393,122 @@
         #button_home {
             position: absolute;
             left: 30px;
-            top:50px;
+            top: 30px;
         }
 
         #button_hukou1 {
-            top: 175px;
+            top: 155px;
             left: 30px;
             height: 180px;
         }
 
 
         #button_hukou2 {
-            top: 275px;
+            top: 255px;
             left: 50px;
         }
 
         #button_timeline {
-            top: 445px;
+            top: 425px;
             left: 30px;
             width: 340px;
         }
 
         #button_border1 {
-            top: 175px;
+            top: 155px;
             left: 170px;
         }
 
         #button_border2 {
-            top: 175px;
+            top: 155px;
             left: 300px;
             height: 80px;
         }
 
         #button_recip {
-            top: 175px;
+            top: 155px;
             left: 475px;
         }
 
         #button_neumayer {
-            top: 280px;
+            top: 260px;
             left: 475px;
             height: 146px;
         }
 
         #button_app {
-            top: 175px;
+            top: 155px;
             left: 645px;
             height: 90px;
         }
 
         #button_gdp {
-            top: 318px;
+            top: 298px;
             left: 645px;
             height: 70px;
         }
 
         #button_fees {
-            top: 175px;
+            top: 155px;
             left: 790px;
             height: 120px;
         }
 
         #button_immigration {
-            top: 350px;
+            top: 330px;
             left: 790px;
             height: 50px;
         }
 
         #button_communism {
-            top: 445px;
+            top: 425px;
             left: 645px;
         }
 
         #rotation {
-            top: 470px;
+            top: 450px;
             left: 550px;
         }
 
         #button_connection {
-            top: 445px;
+            top: 425px;
             left: 790px;
         }
 
         #button_package {
-            left: 935px;
-            top: 175px;
+            left: 915px;
+            top: 155px;
         }
 
         #button_welcome {
-            left: 475px;
-            top: 50px;
+            left: 300px;
+            top: 30px;
         }
+
+        #button_why {
+            left: 475px;
+            top: 30px;
+        }
+
+        #button_roadmap {
+            left: 650px;
+            top: 30px;
+        }
+
 
         #button_conclusion {
             left: 475px;
-            top: 480px;
+            top: 530px;
+        }
+
+        #button_credits {
+            left: 790px;
+            top: 530px;
+        }
+
+        #button_sources {
+            left: 935px;
+            top: 530px;
         }
 
 /* big text in the back */
@@ -499,7 +520,7 @@
 /* box_welcome starts here*/
         #box_welcome {
             position: absolute;
-            left: 1000px;
+            left: -2500px;
             top: 500px;
             width: 1000px;
             height: 750px;
@@ -508,7 +529,7 @@
 
         #flags_wrapper {
             position: absolute;
-            top: 200px;
+            top: 70px;
             left: 300px;
             width: 560px;
         }
@@ -2407,10 +2428,63 @@ background: #FFF;
 #next_wrapper_connection:hover #nav_text_connection_next {
     display: block;
 }
+
 /* box_immigration ends here */
+
+
+/* box_credits starts here*/
+#box_credits {
+    position: absolute;
+    top: 7000px;
+    left: 1200px;
+    width: 1000px;
+    height: 850px;
+    padding: 75px;
+    background: #FFF;
+}
+
+/* box_credits ends here*/
+
 
 /* box_sources starts here */
 
-#box_sources
+#box_sources {
+    position: absolute;
+    top: 7000px;
+    left: 4000px;
+    width:1000px;
+    height: 850px;
+    padding: 75px;
+    background: #FFF;
+}
+
+#sources_list {
+    font-family: AvenirLTStd-Medium;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 50px;
+}
 
 /* box_sources ends here */
+
+#box_why {
+    position:absolute;
+    left: 500px;
+    top: 500px;
+    width:1000px;
+    height: 850px;
+    padding: 75px;
+    background: #FFF;
+}
+
+#box_roadmap {
+    position:absolute;
+    left: 4000px;
+    top: 500px;
+    width:1000px;
+    height: 850px;
+    padding: 75px;
+    background: #FFF;
+}

@@ -131,7 +131,7 @@
         font-family: AvenirLT-MediumOblique;
         font-weight: normal;
         font-style: normal;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 110%;
     }
 
@@ -1095,8 +1095,8 @@
 
     #lastwords {
         position: absolute;
-        left: 5000px;
-        top: 5000px;
+        left: -4000px;
+        top: 7000px;
         padding-bottom: 500px;
     }
 
@@ -2408,3 +2408,9 @@ background: #FFF;
     display: block;
 }
 /* box_immigration ends here */
+
+/* box_sources starts here */
+
+#box_sources
+
+/* box_sources ends here */

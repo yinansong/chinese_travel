@@ -4,346 +4,347 @@
     margin: 0 auto;
 }
 
-        p {
-            margin: -30px;
-            position: relative;
-        }
+    p {
+        margin: -30px;
+        position: relative;
+    }
 
-        a {
-            text-decoration: none;
-        }
+    a {
+        text-decoration: none;
+    }
 
-        .inline_highlighter {
-            background: none;
-            color: #000;
-        }
+    .inline_highlighter {
+        background: none;
+        color: #000;
+    }
 
-        .inline_highlighter:hover {
-            background: #FFFF00;
-            color: #000;
-        }
+    .inline_highlighter:hover {
+        background: #FFFF00;
+        color: #000;
+    }
 
-        #startover_text {
-            color: #FFF;
-        }
+    #startover_text {
+        color: #FFF;
+    }
 
-        .neon {
-            text-decoration: none;
-            color: #000;
-        }
+    .neon {
+        text-decoration: none;
+        color: #000;
+    }
 
-        .section_anchor {
-            position:absolute;
-            top:0px;
-            left:-150px;
-        }
+    .section_anchor {
+        position:absolute;
+        top:0px;
+        left:-150px;
+    }
 
-        .nav_button {
-            color: #FFF;
-            padding: 20px;
-            text-decoration: none;
-            margin: 5px;
-            cursor: pointer;
-        }
+    .nav_button {
+        color: #FFF;
+        padding: 20px;
+        text-decoration: none;
+        margin: 5px;
+        cursor: pointer;
+    }
 
-        .nav_button:hover {
-            color: #000;
-            text-decoration: none;
-            background:#FF0000;
-        }
+    .nav_button:hover {
+        color: #000;
+        text-decoration: none;
+        background:#FF0000;
+    }
 
-        a:hover {
-            background: #FFFF00;
-        }
+    a:hover {
+        background: #FFFF00;
+    }
 
-        .next_button {
-            width:75px;
-            background: none;
-            position: absolute;
-        }
+    .next_button {
+        width:75px;
+        background: none;
+        position: absolute;
+    }
 
-        .previous_button {
-            width:75px;
-            background: none;
-            position: absolute;
-        }
+    .previous_button {
+        width:75px;
+        background: none;
+        position: absolute;
+    }
 
-        .big_text {
-            font-family: AvenirLTStd-Medium;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 1000px;
-            position: absolute;
-            text-align: center;
-            z-index: 0;
-        }
+    .big_text {
+        font-family: AvenirLTStd-Medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1000px;
+        position: absolute;
+        text-align: center;
+        z-index: 0;
+    }
 
-        .title_style1 {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 150px;
-            padding-top: 10px;
-            letter-spacing: -10px;
-        }
+    .title_style1 {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 150px;
+        padding-top: 10px;
+        letter-spacing: -10px;
+    }
 
-        .title_style2 {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 40px;
-            line-height: 120%;
-            letter-spacing: -2px;
-        }
+    .title_style2 {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: -2px;
+    }
 
-        .title_style3 {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 30px;
-            padding-top: 30px;
-        }
+    .title_style3 {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+        padding-top: 30px;
+    }
 
-        .title_style4 {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 100px;
-            letter-spacing: -5px;
-        }
+    .title_style4 {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 100px;
+        letter-spacing: -5px;
+    }
 
-        .title_style5 {
-            font-family: AvenirLTStd-Black;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 20px;
-        }
+    .title_style5 {
+        font-family: AvenirLTStd-Black;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+    }
 
-        .normal_text {
-            font-family: AvenirLTStd-Medium;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 20px;
-            line-height: 140%;
-        }
+    .normal_text {
+        font-family: AvenirLTStd-Medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 140%;
+    }
 
-        .italic_caption {
-            font-family: AvenirLT-MediumOblique;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 20px;
-            line-height: 110%;
-        }
+    .italic_caption {
+        font-family: AvenirLT-MediumOblique;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 110%;
+    }
 
-        .additional_text {
-            font-family: AvenirLTStd-Medium;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 10px;
-            line-height: 130%;
-        }
+    .additional_text {
+        font-family: AvenirLTStd-Medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 130%;
+    }
 
-        .next {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 20px;
-        }
+    .next {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+    }
 
-        /*navigation starts here*/
-        #navigation_bar {
-            position:fixed;
-            right: 50px;
-            z-index: 20;
-            list-style-type: none;
-            margin: 25px 0px;
-        }
+    /*navigation starts here*/
+    #navigation_bar {
+        position:fixed;
+        right: 50px;
+        z-index: 20;
+        list-style-type: none;
+        margin: 25px 0px;
+    }
 
-        #navigation_bar li {
-            float: left;
-        }
+    #navigation_bar li {
+        float: left;
+    }
 
-        .nav_button {
-            background: #000;
-            color: #FFF;
-            padding: 10px 25px;
-            font-family: AvenirLTStd-Medium;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 16px;
-            border: 2px solid #FFF;
-        }
+    .nav_button {
+        background: #000;
+        color: #FFF;
+        padding: 10px 25px;
+        font-family: AvenirLTStd-Medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 16px;
+        border: 2px solid #FFF;
+    }
 
-        .nav_button:hover {
-            background: #FFFF00;
-            color: #000;
-        }
+    .nav_button:hover {
+        background: #FFFF00;
+        color: #000;
+    }
 
-        /*navigation ends here*/
+    /*navigation ends here*/
+
+    /* previous/next navigation buttons start here */
+    .navigation_buttons {
+        position:absolute;
+        bottom: 60px;
+        right: 180px;
+        margin: 100px;
+    }
+
+    .navigation_text_pre {
+        background: #000;
+        color: #FFF;
+        font-family: AvenirLTStd-Medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        width: 100px;
+        position: absolute;
+        height: 55px;
+        width: 90px;
+        left: -80px;
+        top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 50px;
+        padding-left: 5px;
+        text-align: right;
+        display: none;
+    }
+
+    .navigation_text_next {
+        background: #000;
+        color: #FFF;
+        font-family: AvenirLTStd-Medium;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 15px;
+        position: absolute;
+        width: 90px;
+        height: 55px;
+        top: 30px;
+        left: 67px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 5px;
+        text-align: left;
+        display: none;
+    }
+
+    .previous_wrapper {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .next_wrapper {
+        position: absolute;
+        top: 0px;
+        left: 95px;
+    }
 
         /* previous/next navigation buttons start here */
-        .navigation_buttons {
-            position:absolute;
-            bottom: 60px;
-            right: 180px;
-            margin: 100px;
-        }
 
-        .navigation_text_pre {
-            background: #000;
-            color: #FFF;
-            font-family: AvenirLTStd-Medium;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 15px;
-            width: 100px;
-            position: absolute;
-            height: 55px;
-            width: 90px;
-            left: -80px;
-            top: 30px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 50px;
-            padding-left: 5px;
-            text-align: right;
-            display: none;
-        }
+    /*title page starts here*/
 
-        .navigation_text_next {
-            background: #000;
-            color: #FFF;
-            font-family: AvenirLTStd-Medium;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 15px;
-            position: absolute;
-            width: 90px;
-            height: 55px;
-            top: 30px;
-            left: 67px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 50px;
-            padding-right: 5px;
-            text-align: left;
-            display: none;
-        }
+    #title_page {
+        padding-top:150px;
+        padding-left:100px;
+        position: absolute;
+        top:60px;
+        width:1200px;
+    }
 
-        .previous_wrapper {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-        }
+    #title_page_line1 {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 170px;
+        line-height: 95%;
+        letter-spacing: -10px;
+        position: absolute;
+        top: 207px;
+        z-index:4;
+    }
 
-        .next_wrapper {
-            position: absolute;
-            top: 0px;
-            left: 95px;
-        }
+    #title_page_line2 {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 170px;
+        line-height: 95%;
+        letter-spacing: -10px;
+        position: absolute;
+        top: 365px;
+        width: 1300px;
+    }
 
-        /* previous/next navigation buttons start here */
+    #so {
+        position:absolute;
+        left: 500px;
+        top: -30px;
+        height: 360px;
+    }
 
-        /*title page starts here*/
+    #title_underline {
+        position: absolute;
+        left: 600px;
+        top: 440px;
+        height: 52px;
+    }
 
-        #title_page {
-            padding-top:150px;
-            padding-left:100px;
-            position: absolute;
-            top:60px;
-            width:1200px;
-        }
+    #title_chinese {
+        font-family: LinotypeUnivers-420Cn;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 100%;
+        letter-spacing: -10px;
+        position: absolute;
+        left: 577px;
+        top: 332px;
+        font-size:170px;
+    }
 
-        #title_page_line1 {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 170px;
-            line-height: 95%;
-            letter-spacing: -10px;
-            position: absolute;
-            top: 207px;
-            z-index:4;
-        }
+    #chinese_usembassy_pic {
+        position:absolute;
+        width: 600px;
+        top: -100px;
+        left: 900px;
+        display: none;
+    }
 
-        #title_page_line2 {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            font-size: 170px;
-            line-height: 95%;
-            letter-spacing: -10px;
-            position: absolute;
-            top: 365px;
-            width: 1300px;
-        }
+    #title_chinese:hover {
+        background: #FFFF00;
+    }
 
-        #so {
-            position:absolute;
-            left: 500px;
-            top: -30px;
-            height: 360px;
-        }
+    #chinese_usembassy_wrapper:hover #chinese_usembassy_pic {
+        display: block;
+    }
 
-        #title_underline {
-            position: absolute;
-            left: 600px;
-            top: 440px;
-            height: 52px;
-        }
+    #chinese_usembassy_text1 {
+        z-index: 10;
+        position: absolute;
+        left: 700px;
+        top: 650px;
+        width: 400px;
+    }
 
-        #title_chinese {
-            font-family: LinotypeUnivers-420Cn;
-            font-weight: normal;
-            font-style: normal;
-            line-height: 100%;
-            letter-spacing: -10px;
-            position: absolute;
-            left: 577px;
-            top: 332px;
-            font-size:170px;
-        }
+    #chinese_usembassy_text2 {
+        z-index: 10;
+        position: absolute;
+        left: 700px;
+        top: 690px;
+        font-size:8px;
+        width: 400px;
+    }
 
-        #chinese_usembassy_pic {
-            position:absolute;
-            width: 600px;
-            top: -100px;
-            left: 900px;
-            display: none;
-        }
+    #nav_text_title_next {
+        display: none;
+    }
 
-        #title_chinese:hover {
-            background: #FFFF00;
-        }
+    #next_wrapper_title:hover #nav_text_title_next {
+        display: block;
+    }
 
-        #chinese_usembassy_wrapper:hover #chinese_usembassy_pic {
-            display: block;
-        }
-
-        #chinese_usembassy_text1 {
-            z-index: 10;
-            position: absolute;
-            left: 700px;
-            top: 650px;
-            width: 400px;
-        }
-
-        #chinese_usembassy_text2 {
-            z-index: 10;
-            position: absolute;
-            left: 700px;
-            top: 690px;
-            font-size:8px;
-            width: 400px;
-        }
-
-        #nav_text_title_next {
-            display: none;
-        }
-
-        #next_wrapper_title:hover #nav_text_title_next {
-            display: block;
-        }
 /*title page ends here*/
 
 /*content menu starts here*/
@@ -1045,245 +1046,246 @@
         }
 
 /* connection comaprison */
-        #connection {
-            top: 1922px;
-        }
+    #connection {
+        top: 1922px;
+    }
 
-        #smudge07 {
-            left: 33px;
-            width: 185px;
-        }
+    #smudge07 {
+        left: 33px;
+        width: 185px;
+    }
 
-        #connection_wrapper:hover #connection_text {
-            display: block;
-        }
+    #connection_wrapper:hover #connection_text {
+        display: block;
+    }
 
-        #connection_text {
-            display: none;
-            top:0px;
-            left:650px;
-        }
+    #connection_text {
+        display: none;
+        top:0px;
+        left:650px;
+    }
 
-        #connection_wrapper:hover #smudge07 {
-            display: block;
-        }
+    #connection_wrapper:hover #smudge07 {
+        display: block;
+    }
 
-        #previous_wrapper_neumayer:hover #nav_text_neumayer_pre {
-            display: block;
-        }
+    #previous_wrapper_neumayer:hover #nav_text_neumayer_pre {
+        display: block;
+    }
 
-        #next_wrapper_neumayer:hover #nav_text_neumayer_next {
-            display: block;
-        }
+    #next_wrapper_neumayer:hover #nav_text_neumayer_next {
+        display: block;
+    }
 
 /* neumayer ends here */
 
-        #internal {
-            position: absolute;
-            left: 350px;
-            top: 3100px;
-        }
+    #internal {
+        position: absolute;
+        left: 350px;
+        top: 3100px;
+    }
 
-        #external {
-            position: absolute;
-            left: 9000px;
-            top: 0px;
-        }
+    #external {
+        position: absolute;
+        left: 9000px;
+        top: 0px;
+    }
 
 /*last words starts here */
-        #lastwords {
-            position: absolute;
-            left: 5000px;
-            top: 5000px;
-            padding-bottom: 500px;
-        }
 
-        #box_conclusion {
-            position: absolute;
-            top:800px;
-            left:1250px;
-            width: 1000px;
-            height: 700px;
-            padding: 75px;
-            background: #FFF;
-        }
+    #lastwords {
+        position: absolute;
+        left: 5000px;
+        top: 5000px;
+        padding-bottom: 500px;
+    }
 
-        #nav_text_conclusion_pre {
-            display: none;
-        }
+    #box_conclusion {
+        position: absolute;
+        top:800px;
+        left:1250px;
+        width: 1000px;
+        height: 700px;
+        padding: 75px;
+        background: #FFF;
+    }
 
-        #nav_text_conclusion_next {
-            display: none;
-        }
+    #nav_text_conclusion_pre {
+        display: none;
+    }
 
-        #previous_wrapper_conclusion:hover #nav_text_conclusion_pre {
-            display: block;
-        }
+    #nav_text_conclusion_next {
+        display: none;
+    }
 
-        #next_wrapper_conclusion:hover #nav_text_conclusion_next {
-            display: block;
-        }
+    #previous_wrapper_conclusion:hover #nav_text_conclusion_pre {
+        display: block;
+    }
+
+    #next_wrapper_conclusion:hover #nav_text_conclusion_next {
+        display: block;
+    }
 
 
 /*last words ends here */
 
 /*content menu ends here*/
 
-.box {
-    background: #FFFFFF;
-    position: absolute;
-}
+    .box {
+        background: #FFFFFF;
+        position: absolute;
+    }
 
-#box_hukou01 {
-    width: 1000px;
-    height: 2020px;
-    top:0px;
-    left: 600px;
-    padding: 75px;
-}
+    #box_hukou01 {
+        width: 1000px;
+        height: 2020px;
+        top:0px;
+        left: 600px;
+        padding: 75px;
+    }
 
-#hukou_pt2 {
-    position: absolute;
-    top: 1000px;
-}
+    #hukou_pt2 {
+        position: absolute;
+        top: 1000px;
+    }
 
-#nav_text_hukou01_pre {
-    position: absolute;
-}
+    #nav_text_hukou01_pre {
+        position: absolute;
+    }
 
-#previous_wrapper_hukou01:hover #nav_text_hukou01_pre {
-    display: block;
-}
+    #previous_wrapper_hukou01:hover #nav_text_hukou01_pre {
+        display: block;
+    }
 
-#nav_text_hukou01_next {
-    position: absolute;
-}
+    #nav_text_hukou01_next {
+        position: absolute;
+    }
 
-#next_wrapper_hukou01:hover #nav_text_hukou01_next {
-    display: block;
-}
+    #next_wrapper_hukou01:hover #nav_text_hukou01_next {
+        display: block;
+    }
 
 
-        #zhoustory_text {
-            display:none;
-            position:absolute;
-            left:350px;
-            top:393px;
-            width:650px;
-            background:#000;
-            color:white;
-            padding: 55px 55px 50px 55px;
-        }
+    #zhoustory_text {
+        display:none;
+        position:absolute;
+        left:350px;
+        top:393px;
+        width:650px;
+        background:#000;
+        color:white;
+        padding: 55px 55px 50px 55px;
+    }
 
-        #zhoustory_wrapper {
+    #zhoustory_wrapper {
 
-        }
+    }
 
-        #zhoustory_wrapper:hover #zhoustory_text {
-            display:block;
-        }
+    #zhoustory_wrapper:hover #zhoustory_text {
+        display:block;
+    }
 
-        #zhoustory_text_add {
-            display: none;
-        }
+    #zhoustory_text_add {
+        display: none;
+    }
 
-        #zhoustory_wrapper:hover #zhoustory_text_add {
-            display:block;
-        }
+    #zhoustory_wrapper:hover #zhoustory_text_add {
+        display:block;
+    }
 
-        #angry {
-            display: none;
-        }
+    #angry {
+        display: none;
+    }
 
-        #zhoustory_wrapper:hover #angry {
-            display:block;
-        }
+    #zhoustory_wrapper:hover #angry {
+        display:block;
+    }
 
-        #sucks {
-            display:none;
-        }
+    #sucks {
+        display:none;
+    }
 
-        #hukou_title:hover #sucks{
-            display: block;
-        }
+    #hukou_title:hover #sucks{
+        display: block;
+    }
 
 /*box_hukou02 starts here */
-        #divide_wrapper {
-            position: absolute;
-            left: 100px;
-        }
+    #divide_wrapper {
+        position: absolute;
+        left: 100px;
+    }
 
-        #attach_wrapper {
-            position: absolute;
-            left: 30px;
-        }
+    #attach_wrapper {
+        position: absolute;
+        left: 30px;
+    }
 
-        #attach_highlight {
-            position: absolute;
-            top:40px;
-            left: -20px;
-            background:#FFFF00;
-            width:150px;
-            height:100px;
-            z-index: 1;
-            display: none;
-        }
+    #attach_highlight {
+        position: absolute;
+        top:40px;
+        left: -20px;
+        background:#FFFF00;
+        width:150px;
+        height:100px;
+        z-index: 1;
+        display: none;
+    }
 
-        #divide_highlight {
-            position: absolute;
-            background: #FFFF00;
-            height: 100px;
-            z-index: 1;
-            top: 183px;
-            left: -90px;
-            width:150px;
-            display: none;
-        }
+    #divide_highlight {
+        position: absolute;
+        background: #FFFF00;
+        height: 100px;
+        z-index: 1;
+        top: 183px;
+        left: -90px;
+        width:150px;
+        display: none;
+    }
 
-        #how_highlight {
-            position: absolute;
-            top: 545px;
-            left: 11px;
-            width: 150px;
-            height: 175px;
-            background: #FFFF00;
-            z-index: 1;
-            display: none;
-        }
+    #how_highlight {
+        position: absolute;
+        top: 545px;
+        left: 11px;
+        width: 150px;
+        height: 175px;
+        background: #FFFF00;
+        z-index: 1;
+        display: none;
+    }
 
-        #how_wrapper {
-            position: absolute;
-            top: 60px;
-            left: 0px;
-        }
+    #how_wrapper {
+        position: absolute;
+        top: 60px;
+        left: 0px;
+    }
 
-        #how_wrapper:hover #how_highlight {
-            display: block;
-        }
+    #how_wrapper:hover #how_highlight {
+        display: block;
+    }
 
-        #attach_wrapper:hover #attach_highlight {
-            display:block;
-        }
+    #attach_wrapper:hover #attach_highlight {
+        display:block;
+    }
 
-        #divide_wrapper:hover #divide_highlight {
-            display: block;
-        }
+    #divide_wrapper:hover #divide_highlight {
+        display: block;
+    }
 
-        #nav_text_hukou02_pre {
-    position: absolute;
-}
+    #nav_text_hukou02_pre {
+        position: absolute;
+    }
 
-#previous_wrapper_hukou02:hover #nav_text_hukou02_pre {
-    display: block;
-}
+    #previous_wrapper_hukou02:hover #nav_text_hukou02_pre {
+        display: block;
+    }
 
-#nav_text_hukou02_next {
-    position: absolute;
-}
+    #nav_text_hukou02_next {
+        position: absolute;
+    }
 
-#next_wrapper_hukou02:hover #nav_text_hukou02_next {
-    display: block;
-}
+    #next_wrapper_hukou02:hover #nav_text_hukou02_next {
+        display: block;
+    }
 
 /*box_hukou02 ends here */
 
